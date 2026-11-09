@@ -1,0 +1,53 @@
+{
+  "articles": 364,
+  "connected_nodes": 2061,
+  "edges": 18156,
+  "former_pending": 186,
+  "identity_basis": {
+    "club_article": 46,
+    "company_article": 4,
+    "full_name_in_roster_or_match": 1265,
+    "historical_club": 2,
+    "linked_person_page": 706,
+    "stadium_article": 32
+  },
+  "methods": {
+    "nlp_rules_reviewed": 30,
+    "wiki_match_event": 10507,
+    "wiki_match_result": 2766,
+    "wiki_match_venue": 803,
+    "wiki_roster_row": 3890,
+    "wiki_staff_table": 160
+  },
+  "node_types": {
+    "Club": 48,
+    "Competition": 1,
+    "NationalTeam": 1,
+    "Organization": 7,
+    "Person": 1972,
+    "Stadium": 32
+  },
+  "press_decisions": 188,
+  "press_groups": 161,
+  "relations": {
+    "CHU_TICH_CUA": 1,
+    "DANG_KY_THI_DAU_CHO": 3890,
+    "DAN_DAT": 87,
+    "DOI_DAU": 2766,
+    "DOI_TRUONG_CUA": 71,
+    "DUOC_CHO_MUON_DEN": 1,
+    "DUOC_TRIEU_TAP_VAO": 1,
+    "GHI_BAN_VAO_LUOI": 4779,
+    "GIA_HAN_VOI": 2,
+    "KY_HOP_DONG_VOI": 1,
+    "KY_LUAT": 1,
+    "NHAN_THE_VANG_KHI_GAP": 5728,
+    "SU_DUNG_SAN_NHA": 1,
+    "TAI_TRO": 6,
+    "THAM_GIA_GIAI": 14,
+    "THI_DAU_CHO": 4,
+    "THI_DAU_TAI_SAN": 803
+  },
+  "version": "A3",
+  "wiki_source_pages": 144
+}

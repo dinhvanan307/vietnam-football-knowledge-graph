@@ -1,0 +1,33 @@
+entity_id	type	role	canonical_name	aliases
+p-qh	Person	Player	Nguyễn Quang Hải	Quang Hải
+p-vq	Person	Player	Nguyễn Văn Quyết	Văn Quyết
+p-th	Person	Player	Phạm Tuấn Hải	Tuấn Hải
+p-btd	Person	Player	Bùi Tiến Dụng	
+p-sm	Person	Player	Adriano Schmidt	
+p-dvq	Person	Executive	Đỗ Vinh Quang	
+p-nad	Person	Coach	Nguyễn Anh Đức	
+p-ncm	Person	Coach	Nguyễn Công Mạnh	
+c-cahn	Club	Club	CLB Công an Hà Nội	Công an Hà Nội|CLB CAHN
+c-hn	Club	Club	CLB Hà Nội	Hà Nội
+c-bd	Club	Club	CLB Bình Dương	Bình Dương
+c-th	Club	Club	CLB Thanh Hóa	Thanh Hóa
+c-hp	Club	Club	CLB Hải Phòng	Hải Phòng
+c-hagl	Club	Club	Hoàng Anh Gia Lai	HAGL
+c-ht	Club	Club	CLB Hồng Lĩnh Hà Tĩnh	CLB Hà Tĩnh|Hà Tĩnh
+c-nd	Club	Club	CLB Nam Định	Nam Định
+c-qn	Club	Club	CLB Quảng Nam	Quảng Nam
+c-dn	Club	Club	CLB Đà Nẵng	Đà Nẵng
+c-slna	Club	Club	Sông Lam Nghệ An	SLNA
+c-binhdinh	Club	Club	CLB Bình Định	Bình Định
+c-tc	Club	Club	Thể Công Viettel	
+c-hcm	Club	Club	CLB TP.HCM	TP.HCM
+nt-vn	NationalTeam	SeniorMen	Đội tuyển bóng đá nam Việt Nam	đội tuyển Việt Nam|tuyển Việt Nam
+o-vff	Organization	Federation	Liên đoàn Bóng đá Việt Nam	VFF
+o-hanaka	Organization	Company	Tập đoàn Hanaka	Hanaka
+o-snl	Organization	Company	Công ty CP Sâm Ngọc Linh KonTum	
+g-vl1	Competition	League	V.League 1	V-League|V.League
+s-hd	Stadium	Stadium	Sân vận động Hàng Đẫy	Hàng Đẫy
+p-dth	Person	Player	Đặng Tuấn Hưng	
+c-ph	Club	Club	CLB Phố Hiến	Phố Hiến
+p-kc	Person	Player	Kyle Colonna	
+p-md	Person	Player	Martin Dzilah	Dzilah

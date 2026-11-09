@@ -1,0 +1,2 @@
+fact_id,src_id,relation_type,dst_id,event_key,period,status,method,evidence_id
+demo-f,demo-p,GIA_HAN_VOI,demo-c,demo-event-01,2024,accepted,fixture,demo-e

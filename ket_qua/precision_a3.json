@@ -1,0 +1,85 @@
+{
+  "inside": {
+    "N": 16782,
+    "n": 200,
+    "labels": {
+      "DUNG": 193,
+      "CHUA_RO": 3,
+      "SAI": 4
+    },
+    "precision": 0.965,
+    "exact_upper_errors_97_5": 1184,
+    "lower_correct_97_5": 15598,
+    "lower_precision_97_5": 0.9294482183291622
+  },
+  "outside": {
+    "N": 1374,
+    "n": 100,
+    "labels": {
+      "DUNG": 95,
+      "SAI": 4,
+      "CHUA_RO": 1
+    },
+    "precision": 0.95,
+    "exact_upper_errors_97_5": 151,
+    "lower_correct_97_5": 1223,
+    "lower_precision_97_5": 0.8901018922852983
+  },
+  "combined": {
+    "N": 18156,
+    "n": 300,
+    "inner_weight": 0.9243225380039656,
+    "outer_weight": 0.07567746199603437,
+    "weighted_precision": 0.9638648380700595,
+    "lower_95": 0.9264705882352942,
+    "min_correct_95": 16821,
+    "threshold_exceeded": true
+  },
+  "counts": {
+    "DUNG": 288,
+    "CHUA_RO": 4,
+    "SAI": 8
+  },
+  "n009_stricter": {
+    "weighted_precision": 0.9631080634500991,
+    "lower_95": 0.9254791804362195
+  },
+  "audit": {
+    "seed": 2026110804,
+    "sample_sha256": "3e16108c73c61d51d035ace7867e7888e5674831d00378ed55562da97a18041b",
+    "frame_sha256": "d12723df18af1c1e6561492186764738f901efa568772e994f7f0ace85a7324e",
+    "graph_facts_sha256": "10b4823185d9ef9266d360c697a4e8e661165dcf0dfb52c14e6e9646a2bb5b5b",
+    "old_sample_sha256": "a8b02fdcb9b3bab73814b2d2604803711150841e2239394974be8e38124d6d47",
+    "support_evidence_count": 195,
+    "distinct_spans": 180,
+    "source_versions": 43,
+    "outer_by_relation": {
+      "DOI_DAU": 14,
+      "GHI_BAN_VAO_LUOI": 27,
+      "THI_DAU_TAI_SAN": 19,
+      "NHAN_THE_VANG_KHI_GAP": 31,
+      "DANG_KY_THI_DAU_CHO": 3,
+      "KY_HOP_DONG_VOI": 1,
+      "DOI_TRUONG_CUA": 1,
+      "THAM_GIA_GIAI": 1,
+      "DAN_DAT": 1,
+      "TAI_TRO": 1,
+      "THI_DAU_CHO": 1
+    },
+    "outer_by_method": {
+      "wiki_match_result": 14,
+      "wiki_match_event": 58,
+      "wiki_match_venue": 19,
+      "wiki_roster_row": 3,
+      "nlp_rules_reviewed": 4,
+      "wiki_staff_table": 2
+    },
+    "outer_by_prior_status": {
+      "doi_chieu_sua_A3": 22,
+      "trung_bang_chung_hoac_tran": 92,
+      "mau_A2": 13,
+      "phieu_co_san_A3": 11,
+      "pilot_da_duyet": 4
+    }
+  }
+}

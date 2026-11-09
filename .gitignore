@@ -1,0 +1,16 @@
+/.env
+/.env.*
+!/.env.example
+/.venv/
+/work/
+/bundles/
+/templates/article_events_02.tsv
+/templates/reviews_pilot.tsv
+/danh_gia_*/*
+!/danh_gia_*/*.py
+*.zip
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.DS_Store

@@ -1,0 +1,7 @@
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+/ket_qua/*.tsv text eol=lf
+/example/** -text
+/source_example/** -text
+*.tsv whitespace=-trailing-space

@@ -1,7 +1,10 @@
 """Các lệnh thường dùng khi làm việc từ gốc repository."""
 import argparse
+import os
 import runpy
 import sys
+
+from bongda.paths import ROOT
 
 COMMANDS = {
     "verify": ("bongda.evaluate.overall.kiem_tra_cong_khai", "Tái lập precision từ mẫu 300 cạnh công khai"),
@@ -9,6 +12,10 @@ COMMANDS = {
     "restore": ("bongda.data.khoi_phuc_goi", "Khôi phục dữ liệu từ các ZIP bàn giao"),
     "build-a3": ("bongda.graph.tao_a3", "Dựng một snapshot A3 từ A2"),
     "import-a3": ("bongda.storage.nhap_neo4j_a3", "Nhập A3 hai lượt và đối chiếu Neo4j"),
+    "extract-news": ("nlp_bao/trich_xuat.py", "Kiểm tra và bổ sung quan hệ từ báo qua Gemini"),
+    "score-news": ("nlp_bao/danh_gia.py", "Chấm các quan hệ từ báo trên bộ nhãn"),
+    "replay-news": ("nlp_bao/chuan_hoa_lai.py", "Chuẩn hóa lại các phản hồi đã lưu"),
+    "compare-callups": ("nlp_bao/so_sanh_trieu_tap.py", "So sánh trước/sau trên cùng phản hồi Gemini"),
     "inspect-db": ("bongda.storage.kiem_tra_neo4j_a3", "Đọc thống kê và dấu kiểm của Neo4j"),
 }
 
@@ -22,9 +29,13 @@ def main():
     )
     parser.add_argument("command", choices=COMMANDS, metavar="LỆNH")
     command = parser.parse_args(sys.argv[1:2]).command
+    target = COMMANDS[command][0]
+    if target.endswith(".py"):
+        # Giữ môi trường import và checksum của các chương trình Gemini đã khóa.
+        os.execv(sys.executable, [sys.executable, str(ROOT / target), *sys.argv[2:]])
     # Mô-đun đích tự xử lý đối số và mã thoát như khi chạy trực tiếp bằng python -m.
     sys.argv = [f"{parser.prog} {command}", *sys.argv[2:]]
-    runpy.run_module(COMMANDS[command][0], run_name="__main__")
+    runpy.run_module(target, run_name="__main__")
 
 
 if __name__ == "__main__":

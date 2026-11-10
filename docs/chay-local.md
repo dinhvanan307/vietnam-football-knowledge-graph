@@ -138,8 +138,8 @@ Bộ luật gợi ý cặp thực thể. Gemini đọc toàn bài, đối chiế
 Từ thư mục gốc của repo, khôi phục A3 theo mục 2, đặt biến môi trường `GEMINI_API_KEY`, rồi chạy trong môi trường Python của nhóm. `work/bao_test.jsonl` chứa một bài trên mỗi dòng với ba trường `article_id`, `canonical_url`, `clean_text`. Với lô kiểm tra của nhóm, dùng bản `Nang_cap_NLP/test_final.jsonl` lưu cùng gói nguồn riêng và sao chép vào đường dẫn này.
 
 ```sh
-python nlp_bao/trich_xuat.py work/bao_test.jsonl work/kiem_tra_gemini --entities work/a3_final/entities.csv --model gemini-3.5-flash
-python nlp_bao/danh_gia.py work/bao_test.jsonl results/press/nhan_test.tsv work/a3_final/entities.csv work/kiem_tra_gemini work/diem_gemini
+python -m bongda extract-news work/bao_test.jsonl work/kiem_tra_gemini --entities work/a3_final/entities.csv --model gemini-3.5-flash
+python -m bongda score-news work/bao_test.jsonl results/press/nhan_test.tsv work/a3_final/entities.csv work/kiem_tra_gemini work/diem_gemini
 ```
 
 Mỗi bài hoàn tất được lưu riêng trong `work/kiem_tra_gemini`. Chạy lại lệnh sẽ bỏ qua bài đã lưu với đúng phiên bản đầu vào. Bảng [18 bài kiểm tra](../results/press/mau_test_final.tsv) và [53 nhãn tham chiếu](../results/press/nhan_test.tsv) dùng cho phép đo trên bài báo mới. Nhãn tham chiếu do Codex lập trước khi chạy API. Các bài được chọn theo chủ đề, gồm cả bài không có quan hệ thuộc phạm vi.
@@ -157,8 +157,8 @@ Phiên bản sau xử lý chiều VFF–cầu thủ, ưu tiên tên có dấu, �
 Khi có thư mục phản hồi API đã lưu, có thể kiểm tra thay đổi luật mà không gửi thêm yêu cầu tới dịch vụ. Đặt mỗi JSON theo mã bài vào cùng thư mục `work/phan_hoi_cu`. Lệnh chấm dùng `--allow-mixed` khi tập phản hồi có nhiều phiên bản model.
 
 ```sh
-python nlp_bao/chuan_hoa_lai.py work/bao_test.jsonl work/a3_final/entities.csv work/phan_hoi_cu work/chuan_hoa
-python nlp_bao/danh_gia.py work/bao_test.jsonl results/press/nhan_test.tsv work/a3_final/entities.csv work/chuan_hoa work/diem_chuan_hoa --allow-mixed
+python -m bongda replay-news work/bao_test.jsonl work/a3_final/entities.csv work/phan_hoi_cu work/chuan_hoa
+python -m bongda score-news work/bao_test.jsonl results/press/nhan_test.tsv work/a3_final/entities.csv work/chuan_hoa work/diem_chuan_hoa --allow-mixed
 ```
 
 Lượt kiểm tra riêng quan hệ triệu tập dùng cùng phản hồi Gemini trên 14 bài mới cho hai phiên bản. [Xem số liệu và đối chiếu từng cạnh](../results/callups/README.md).

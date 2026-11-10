@@ -24,7 +24,7 @@ python3.13 -m bongda verify
 python3.13 -m bongda bundle check examples/graph --graph --demo
 ```
 
-Lệnh đầu kiểm tra lại hai mẫu và tính precision của A3. Lệnh sau kiểm tra ví dụ gồm 2 nút và 1 cạnh. Xem `python3.13 -m bongda --help` để liệt kê các lệnh chính. Các bước khôi phục ZIP, dựng lại đồ thị, nhập Neo4j hai lần và chấm kết quả từ phản hồi Gemini đã lưu có trong [hướng dẫn chạy local](docs/chay-local.md).
+Lệnh đầu kiểm tra lại hai mẫu và tính precision của A3. Lệnh sau kiểm tra ví dụ gồm 2 nút và 1 cạnh. Xem `python3.13 -m bongda --help` để liệt kê các lệnh chính. Các kiểm thử hồi quy có thể chạy bằng `python3.13 -m unittest discover -s tests`. Các bước khôi phục ZIP, dựng lại đồ thị, nhập Neo4j hai lần và chấm kết quả từ phản hồi Gemini đã lưu có trong [hướng dẫn chạy local](docs/chay-local.md).
 
 ## Cấu trúc
 

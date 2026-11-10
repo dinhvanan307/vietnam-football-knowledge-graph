@@ -20,7 +20,7 @@ Một lỗi mới ở C01 là gán “Thanh Bình”, thủ môn SHB Đà Nẵng
 Để tái tính từ bản lưu riêng trên máy nhóm, chạy từ gốc repo:
 
 ```sh
-python3.13 nlp_bao/so_sanh_trieu_tap.py \
+python3.13 -m bongda compare-callups \
   ../Kiem_thu_trieu_tap/lot_moi.jsonl results/callups/nhan.tsv \
   ../Mau_ban_giao_A/work/a3_final/entities.csv ../Kiem_thu_trieu_tap/api work/kiem_tra_trieu_tap
 ```

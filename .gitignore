@@ -6,8 +6,10 @@
 /bundles/
 /templates/article_events_02.tsv
 /templates/reviews_pilot.tsv
-/danh_gia_*/*
-!/danh_gia_*/*.py
+/danh_gia_precision/
+/danh_gia_precision_a3/
+/danh_gia_toan_bo_a3/
+/real-import/
 *.zip
 *.pem
 *.key

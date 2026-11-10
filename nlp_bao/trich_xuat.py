@@ -17,6 +17,7 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from trich_quan_he import candidates
+from trieu_tap import CAMP, Callups, REL as CALLUP
 TYPES = {
     "KY_HOP_DONG_VOI": ("Person", "Club"),
     "DAN_DAT": ("Person", "Club"),
@@ -125,6 +126,8 @@ class Registry:
                     for form in entity_forms(label):
                         self.index.setdefault(("Club", form), set()).add(eid)
                     self.exact["Club", exact_name(undecorated(label))].add(eid)
+
+        self.callups = Callups(self)
 
     def resolve(self, name, kind, role=None, context="", counterpart=None):
         forms = entity_forms(name)
@@ -258,7 +261,8 @@ def is_vff(name):
 def normalize_records(records, article, registry):
     blocks = list(re.finditer(r"[^\n]+",article["clean_text"]))
     accepted, rejected = {}, []
-    for raw in records:
+    text = article["clean_text"]
+    for raw in [*records, *registry.callups.supplements(article, registry)]:
         rel, src, dst = raw["rel"], raw["src"].strip(), raw["dst"].strip()
         indices = sorted(set(raw["paragraphs"]))
         if (rel not in TYPES or not src or not dst or not indices or
@@ -286,6 +290,11 @@ def normalize_records(records, article, registry):
         t = "nt-vn" if rel == "DUOC_TRIEU_TAP_VAO" else registry.resolve(dst,TYPES[rel][1],context=evidence)
         s = "o-vff" if rel == "KY_LUAT" else registry.resolve(src,TYPES[rel][0],role="Coach" if rel=="DAN_DAT" else None,
                context=evidence,counterpart=t if rel=="DAN_DAT" else None)
+        if rel == CALLUP:
+            if not CAMP.search(text):
+                rejected.append(dict(raw=raw,reason="no_callup_or_camp_in_article"))
+                continue
+            s = registry.callups.resolve(registry,src,evidence,text)
         entry = accepted.setdefault((s,rel,t),dict(src_id=s,src=src,relation_type=rel,dst_id=t,dst=dst,evidence={}))
         for i in indices:
             m = blocks[i-1]
@@ -328,6 +337,8 @@ def main():
     identity = dict(provider=args.provider,model=args.model,code_sha256=digest(Path(__file__).read_bytes()),
                     rules_sha256=digest((ROOT/"trich_quan_he.py").read_bytes()),
                     aliases_sha256=digest(Path(__file__).with_name("ten_clb.tsv").read_bytes()),
+                    callup_code_sha256=digest(Path(__file__).with_name("trieu_tap.py").read_bytes()),
+                    callup_names_sha256=digest(Path(__file__).with_name("ten_tuyen_thu.tsv").read_bytes()),
                     facts_sha256=digest((args.entities.parent/"facts.csv").read_bytes()),
                     graph_sha256=digest(args.entities.read_bytes()),pilot_sha256=digest(pilot_path.read_bytes()))
     args.output.mkdir(parents=True,exist_ok=True)

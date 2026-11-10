@@ -1,0 +1,140 @@
+bai	nguon_id	quan_he	dich_id	doan	ten_chuan
+C01	p-4e0a835e9aa68696b9ec	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,7	Trần Nguyên Mạnh
+C01	p-02a8d04bb909b2905749	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,7	Nguyễn Thanh Bình (cầu thủ bóng đá, sinh 1987)
+C01	p-24613455b0f743c1d64b	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,7	Tô Vĩnh Lợi
+C01	p-037648339c4debbe21d7	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Võ Huy Toàn
+C01	p-c4b6202e078ee06ccb9a	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Quế Ngọc Hải
+C01	p-e52154c77eaa31d5b8be	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Lê Phước Tứ
+C01	p-5664b12224bb2604b29f	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Nguyễn Văn Biển
+C01	p-5c88d1541a2306be6d35	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Đinh Tiến Thành
+C01	p-04238e7aefb9ce967b89	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Nguyễn Huy Cường
+C01	p-e8c0eec505505624900a	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Bùi Văn Long
+C01	p-6274e9ab2e85e175e09e	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,8	Âu Văn Hoàn
+C01	p-4fa9e4c0c4c63eb90748	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Nguyễn Minh Châu
+C01	p-2c01f4f41ccc6af71cc3	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Lê Tấn Tài
+C01	p-44f512abd03b5aaf2453	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Nguyễn Trọng Hoàng
+C01	p-8b9a0d0a0ddacf35d566	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Hoàng Minh Tâm
+C01	p-7fa78051efe9f38bb928	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Nguyễn Vũ Phong
+C01	p-0daf4c24833fb4874949	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Vũ Minh Tuấn
+C01	p-vq	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Nguyễn Văn Quyết
+C01	p-f91726d9d8004441efd6	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Phạm Thành Lương
+C01	p-488cef2c700ecf7cccc7	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Đinh Thanh Trung
+C01	p-2094a1a8002845b6cc90	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,9	Ngô Hoàng Thịnh
+C01	p-c302b0a5061105350a37	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,10	Nguyễn Hải Anh
+C01	p-ab026ef6f5b07ed12125	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,10	Lê Công Vinh
+C01	p-nad	DUOC_TRIEU_TAP_VAO	nt-vn	1,6,10	Nguyễn Anh Đức
+C02	p-0b1369fe9e9c323a0e85	DUOC_TRIEU_TAP_VAO	nt-vn	1,2	Nghiêm Xuân Tú
+C02	p-df901c4ff615fa8f4292	DUOC_TRIEU_TAP_VAO	nt-vn	1,2	Nguyễn Tuấn Mạnh
+C02	p-1788c34993db513f0d22	DUOC_TRIEU_TAP_VAO	nt-vn	2,3	Huỳnh Tuấn Linh
+C02	p-5d185388f975e9e73aa8	DUOC_TRIEU_TAP_VAO	nt-vn	2,3	Nguyễn Minh Tùng
+C02	p-0daf4c24833fb4874949	DUOC_TRIEU_TAP_VAO	nt-vn	2,3	Vũ Minh Tuấn
+C02	p-793575551c9e591c06b6	DUOC_TRIEU_TAP_VAO	nt-vn	4	Sầm Ngọc Đức
+C02	p-f91726d9d8004441efd6	DUOC_TRIEU_TAP_VAO	nt-vn	4	Phạm Thành Lương
+C02	p-vq	DUOC_TRIEU_TAP_VAO	nt-vn	4	Nguyễn Văn Quyết
+C02	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	4	Đặng Văn Lâm
+C02	p-78fb1cc2567fa8e30468	DUOC_TRIEU_TAP_VAO	nt-vn	4	Lê Văn Thắng
+C02	p-4daf74f0a25fe6f642de	DUOC_TRIEU_TAP_VAO	nt-vn	6	Trương Đình Luật
+C02	p-6274e9ab2e85e175e09e	DUOC_TRIEU_TAP_VAO	nt-vn	6	Âu Văn Hoàn
+C02	p-44f512abd03b5aaf2453	DUOC_TRIEU_TAP_VAO	nt-vn	6	Nguyễn Trọng Hoàng
+C02	p-ab026ef6f5b07ed12125	DUOC_TRIEU_TAP_VAO	nt-vn	6	Lê Công Vinh
+C02	p-888d79877c03d6b1836c	DUOC_TRIEU_TAP_VAO	nt-vn	6	Trần Đình Đồng
+C02	p-2094a1a8002845b6cc90	DUOC_TRIEU_TAP_VAO	nt-vn	6	Ngô Hoàng Thịnh
+C02	p-1133a3b4fde078b48d15	DUOC_TRIEU_TAP_VAO	nt-vn	6	Hoàng Đình Tùng
+C02	p-4c8dffd9cef2e7f6f46c	DUOC_TRIEU_TAP_VAO	nt-vn	7	Trần Phi Sơn
+C02	p-f008f38c4e41100b695f	DUOC_TRIEU_TAP_VAO	nt-vn	7	Trần Đình Hoàng
+C02	p-4e0a835e9aa68696b9ec	DUOC_TRIEU_TAP_VAO	nt-vn	7	Trần Nguyên Mạnh
+C02	p-c4b6202e078ee06ccb9a	DUOC_TRIEU_TAP_VAO	nt-vn	7	Quế Ngọc Hải
+C02	p-9c8674f43b6b3544caa2	DUOC_TRIEU_TAP_VAO	nt-vn	8	Nguyễn Công Phượng
+C02	p-ed4d03d3ac64ae7a6b1d	DUOC_TRIEU_TAP_VAO	nt-vn	8	Nguyễn Tuấn Anh
+C02	p-85c2c632d2dcd7728fd1	DUOC_TRIEU_TAP_VAO	nt-vn	8	Lương Xuân Trường
+C02	p-82131952dc3f870e9873	DUOC_TRIEU_TAP_VAO	nt-vn	8	Vũ Văn Thanh
+C02	p-a2c40f68e14475c98bcb	DUOC_TRIEU_TAP_VAO	nt-vn	8	Nguyễn Văn Toàn
+C02	p-037648339c4debbe21d7	DUOC_TRIEU_TAP_VAO	nt-vn	9	Võ Huy Toàn
+C03	p-e8b0cc79dbb1d0449e9b	DUOC_TRIEU_TAP_VAO	nt-vn	2,3	Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1997)
+C03	p-f124ef8acf0d16764a44	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Trần Đình Trọng
+C03	p-f2309d44164c26ee6b65	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Đoàn Văn Hậu
+C03	p-fb2160fbb027e5850ed4	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Hồ Tấn Tài
+C03	p-43bd6fdae12b0bbc9684	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Huỳnh Tấn Sinh
+C03	p-c4b6202e078ee06ccb9a	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Quế Ngọc Hải
+C03	p-9da7d3c56cd3edf5afb1	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	A Hoàng
+C03	p-571375a0065db49c0ba9	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Hoàng Văn Khánh
+C03	p-6274e9ab2e85e175e09e	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Âu Văn Hoàn
+C03	p-35b6282e1bc1d2376d11	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Trần Đình Khương
+C03	p-793575551c9e591c06b6	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Sầm Ngọc Đức
+C03	p-82131952dc3f870e9873	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Vũ Văn Thanh
+C03	p-36ea03fcd105ba8f0770	DUOC_TRIEU_TAP_VAO	nt-vn	2,4	Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1995)
+C03	p-qh	DUOC_TRIEU_TAP_VAO	nt-vn	5	Nguyễn Quang Hải
+C03	p-8ba1e99038731a7d8ee0	DUOC_TRIEU_TAP_VAO	nt-vn	5	Hà Đức Chinh
+C03	p-0b1369fe9e9c323a0e85	DUOC_TRIEU_TAP_VAO	nt-vn	9	Nghiêm Xuân Tú
+C03	p-85c2c632d2dcd7728fd1	DUOC_TRIEU_TAP_VAO	nt-vn	9	Lương Xuân Trường
+C03	p-ed4d03d3ac64ae7a6b1d	DUOC_TRIEU_TAP_VAO	nt-vn	9	Nguyễn Tuấn Anh
+C03	p-0daf4c24833fb4874949	DUOC_TRIEU_TAP_VAO	nt-vn	10	Vũ Minh Tuấn
+C03	p-deb33af45aeed9c8edf9	DUOC_TRIEU_TAP_VAO	nt-vn	10	Nguyễn Huy Hùng
+C03	p-488cef2c700ecf7cccc7	DUOC_TRIEU_TAP_VAO	nt-vn	10	Đinh Thanh Trung
+C03	p-1ae9a5755e10b50a0cf6	DUOC_TRIEU_TAP_VAO	nt-vn	10	Đỗ Duy Mạnh
+C03	p-d23be642790136a81277	DUOC_TRIEU_TAP_VAO	nt-vn	10	Nguyễn Phong Hồng Duy
+C03	p-vq	DUOC_TRIEU_TAP_VAO	nt-vn	10	Nguyễn Văn Quyết
+C03	p-9c8674f43b6b3544caa2	DUOC_TRIEU_TAP_VAO	nt-vn	10	Nguyễn Công Phượng
+C04	p-qh	DUOC_TRIEU_TAP_VAO	nt-vn	1,4	Nguyễn Quang Hải
+C04	p-c4b6202e078ee06ccb9a	DUOC_TRIEU_TAP_VAO	nt-vn	1,4	Quế Ngọc Hải
+C04	p-44f512abd03b5aaf2453	DUOC_TRIEU_TAP_VAO	nt-vn	1,5	Nguyễn Trọng Hoàng
+C04	p-b71661753b33d6c6e948	DUOC_TRIEU_TAP_VAO	nt-vn	6	Trần Minh Vương
+C05	p-83313bc445f4e75dd841	DUOC_TRIEU_TAP_VAO	nt-vn	1,2	Mạc Hồng Quân
+C05	p-037648339c4debbe21d7	DUOC_TRIEU_TAP_VAO	nt-vn	1,2	Võ Huy Toàn
+C05	p-2094a1a8002845b6cc90	DUOC_TRIEU_TAP_VAO	nt-vn	1,2	Ngô Hoàng Thịnh
+C06	p-f673ffd35114380005e7	DUOC_TRIEU_TAP_VAO	nt-vn	2	Triệu Việt Hưng
+C06	p-a7378295ca2b7d2e466b	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Trọng Long
+C06	p-8a716f24f6c2bf1006aa	DUOC_TRIEU_TAP_VAO	nt-vn	2	Lê Phạm Thành Long
+C06	p-a320ff79c4867c684df3	DUOC_TRIEU_TAP_VAO	nt-vn	2	Lâm Ti Phông
+C06	p-bfecd3b97fa1ce3c64f7	DUOC_TRIEU_TAP_VAO	nt-vn	2	Trương Tiến Anh
+C06	p-9c6f2a21fef4df074809	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Đình Triệu
+C06	p-9ee270434fab25352be2	DUOC_TRIEU_TAP_VAO	nt-vn	2	Trần Minh Toàn
+C06	p-d08327a6fcd45f3a7e21	DUOC_TRIEU_TAP_VAO	nt-vn	2	Bùi Văn Đức
+C06	p-d036a52efb218b35293e	DUOC_TRIEU_TAP_VAO	nt-vn	4	Nguyễn Văn Tùng (cầu thủ bóng đá, sinh 2001)
+C06	p-1db9b0a02c337221997c	DUOC_TRIEU_TAP_VAO	nt-vn	4	Nguyễn Văn Toản
+C06	p-2e88603986547fc2add0	DUOC_TRIEU_TAP_VAO	nt-vn	4	Phan Tuấn Tài
+C06	p-03083cc7707fa0ca8514	DUOC_TRIEU_TAP_VAO	nt-vn	4	Nguyễn Thái Sơn
+C06	p-ff79ed0f27a5cdf09e15	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Dương Văn Hào
+C06	p-fc03a2e45ace6b68b609	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Nguyễn Đức Chiến
+C06	p-0e40dac7c9909c4002a0	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Phạm Văn Phong
+C06	p-1eeffd98f81fa82b8bec	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Vũ Quang Nam
+C06	p-8e237039c98e4b68b981	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Nguyễn Hữu Sơn
+C06	p-aa09a97c657db2531d57	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Phạm Trung Hiếu
+C06	p-2abb0c125ad5ae1142f2	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Phạm Văn Luân
+C06	p-c2a5721bb117282bd6c1	DUOC_TRIEU_TAP_VAO	nt-vn	9,10	Hoàng Thái Bình
+C06	p-f2309d44164c26ee6b65	DUOC_TRIEU_TAP_VAO	nt-vn	13	Đoàn Văn Hậu
+C06	p-fb2160fbb027e5850ed4	DUOC_TRIEU_TAP_VAO	nt-vn	13	Hồ Tấn Tài
+C06	p-qh	DUOC_TRIEU_TAP_VAO	nt-vn	14	Nguyễn Quang Hải
+C06	p-8fa94f0588c06eae5aba	DUOC_TRIEU_TAP_VAO	nt-vn	14	Đỗ Hùng Dũng
+C06	p-ed4d03d3ac64ae7a6b1d	DUOC_TRIEU_TAP_VAO	nt-vn	14	Nguyễn Tuấn Anh
+C06	p-7e60385e92dfee0e6e35	DUOC_TRIEU_TAP_VAO	nt-vn	14	Nguyễn Hoàng Đức
+C07	p-46ba7e65dc06be62f465	DUOC_TRIEU_TAP_VAO	nt-vn	2	Bùi Hoàng Việt Anh
+C07	p-8a716f24f6c2bf1006aa	DUOC_TRIEU_TAP_VAO	nt-vn	2	Lê Phạm Thành Long
+C07	p-1a84d4526d7d086832d3	DUOC_TRIEU_TAP_VAO	nt-vn	2	Châu Ngọc Quang
+C07	p-vq	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Văn Quyết
+C07	p-d5573d93ab48da0a705b	DUOC_TRIEU_TAP_VAO	nt-vn	2	Tô Văn Vũ
+C07	p-ff8e44f9f9792f4ea9ec	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Văn Việt (cầu thủ bóng đá, sinh 2002)
+C07	p-b0e803f6e54c12e3b21d	DUOC_TRIEU_TAP_VAO	nt-vn	2	Trần Trung Kiên
+C07	p-1356112d0dad68223663	DUOC_TRIEU_TAP_VAO	nt-vn	2	Giáp Tuấn Dương
+C07	p-66ba7db0749e5dd6c6dd	DUOC_TRIEU_TAP_VAO	nt-vn	2	Khuất Văn Khang
+C07	p-3caf161e7d395a486820	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Văn Trường
+C07	p-03083cc7707fa0ca8514	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Thái Sơn
+C07	p-9b1174e2d2d1c2a025f9	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Đình Bắc
+C07	p-2e7666b076cfc615f9e1	DUOC_TRIEU_TAP_VAO	nt-vn	2	Bùi Vĩ Hào
+C07	p-026c9491fdee611e63cf	DUOC_TRIEU_TAP_VAO	nt-vn	2	Nguyễn Quốc Việt
+C08	p-2e7666b076cfc615f9e1	DUOC_TRIEU_TAP_VAO	nt-vn	4	Bùi Vĩ Hào
+C08	p-eefeb3673aea7dc4ca20	DUOC_TRIEU_TAP_VAO	nt-vn	4	Đinh Thanh Bình
+C08	p-22e3c7ec9e8e3aa7aa2e	DUOC_TRIEU_TAP_VAO	nt-vn	5	Võ Hoàng Minh Khoa
+C09	p-5eb9e38005dfc187a199	DUOC_TRIEU_TAP_VAO	nt-vn	1,2,3,6	Cao Pendant Quang Vinh
+C09	p-qh	DUOC_TRIEU_TAP_VAO	nt-vn	6	Nguyễn Quang Hải
+C09	p-7f012bb1306ba885e4dd	DUOC_TRIEU_TAP_VAO	nt-vn	6	Nguyễn Filip
+C09	p-1141ed82601031e5605b	DUOC_TRIEU_TAP_VAO	nt-vn	6	Nguyễn Tiến Linh
+C09	p-22e3c7ec9e8e3aa7aa2e	DUOC_TRIEU_TAP_VAO	nt-vn	6	Võ Hoàng Minh Khoa
+C09	p-9c8674f43b6b3544caa2	DUOC_TRIEU_TAP_VAO	nt-vn	7,8	Nguyễn Công Phượng
+C09	p-fc03a2e45ace6b68b609	DUOC_TRIEU_TAP_VAO	nt-vn	7,8	Nguyễn Đức Chiến
+C09	p-9c6f2a21fef4df074809	DUOC_TRIEU_TAP_VAO	nt-vn	7,8	Nguyễn Đình Triệu
+C09	p-4bee8b3ac0909bc736ec	DUOC_TRIEU_TAP_VAO	nt-vn	9	Cao Văn Bình
+C10	p-1ae9a5755e10b50a0cf6	DUOC_TRIEU_TAP_VAO	nt-vn	1,2,3	Đỗ Duy Mạnh
+C10	p-7e60385e92dfee0e6e35	DUOC_TRIEU_TAP_VAO	nt-vn	1,2,3	Nguyễn Hoàng Đức
+C10	p-5eb9e38005dfc187a199	DUOC_TRIEU_TAP_VAO	nt-vn	1,2,3	Cao Pendant Quang Vinh
+C10	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	8	Đặng Văn Lâm

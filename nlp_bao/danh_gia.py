@@ -68,6 +68,9 @@ def score(docs, gold_rows, entities, predictions, output, allow_mixed=False):
         raw = json.loads((predictions/(aid+".json")).read_bytes())
         meta = raw["input"]
         info = {key:meta[key] for key in ("code_sha256","provider","rules_sha256","graph_sha256","facts_sha256","pilot_sha256")}
+        for optional in ("aliases_sha256", "callup_code_sha256", "callup_names_sha256"):
+            if optional in meta:
+                info[optional] = meta[optional]
         version = raw.get("api_model_version") or "unknown"
         server_versions[version] += 1
         by_model[(meta["model"],version)].add(aid)

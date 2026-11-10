@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-10T03:00:06.620849+00:00",
+  "sha256": {
+    "khoa_ma.json": "278b8e1efc647f43001e12f6802a5595e0cee62c1efd8dcedbb291f73c54bef2",
+    "mau.tsv": "50748a850dccf871e3ee67bae71ace4b75bf80ee9544dee530becb7c0437c7f3",
+    "lot_moi.jsonl": "c00ffff5fdefc4b2f41865e787eb062d360b2c2745988bcd7bc965f6f0907744",
+    "nhan.tsv": "f5276c1165889fee332bc87fb40d5eeec14a32f3bd36349589239c51b16c0d76"
+  },
+  "negative": [
+    "C11",
+    "C12",
+    "C13",
+    "C14"
+  ],
+  "reviewer": "Codex, one source review before inference",
+  "primary_model": "gemini-3.1-flash-lite"
+}

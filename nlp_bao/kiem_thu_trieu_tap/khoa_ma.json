@@ -1,0 +1,12 @@
+{
+  "before": "2f873fbed7b2993d06bf5d070a90278890c7d7c2",
+  "utc": "2026-11-10T02:56:21.680419+00:00",
+  "sha256": {
+    "trich_xuat.py": "bfb24df808ac71d2db687db7cb456fa45603b26545bb13c2b1a0a67fa13f1387",
+    "trieu_tap.py": "52b2f5ddf486a06369e9171031e756a0b1bef1b08314ceb7e52922bf52229142",
+    "ten_tuyen_thu.tsv": "d24b69131a3df8cef3a6f1016ee288ea7f0f357a1a37f2720f8e1b86feb73959",
+    "ten_clb.tsv": "6ca4c8f23f037ec7f744f8fb12bbbde7c7b0d87f9e6c5fe2860a92dd71a1ae84"
+  },
+  "unit": "article + player ID + DUOC_TRIEU_TAP_VAO + nt-vn",
+  "design": "Cùng phản hồi Gemini cho cả hai bộ xử lý. Chọn tin theo chủ đề, gồm tin đội nam và đối chứng. Gồm quan hệ lịch sử và cầu thủ tập trung trước khi rút danh sách. Loại tuyển trẻ, tuyển nữ, dự kiến, chỉ nhắc tuyển thủ. Khóa nhãn trước khi gọi API. Ghi nhận tất cả ID ngoài từ điển bằng new:tên khi văn bản rõ danh tính."
+}

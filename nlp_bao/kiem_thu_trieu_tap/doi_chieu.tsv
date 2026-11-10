@@ -1,0 +1,170 @@
+bai	nguon_id	ten	nhan	url	truoc	doan_truoc	sau	doan_sau	doan_nhan
+C01	ambiguous:Hải Anh	ambiguous:Hải Anh	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,10	1	1,10	
+C01	ambiguous:Minh Tuấn	ambiguous:Minh Tuấn	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,9	0		
+C01	ambiguous:Nguyên Mạnh	ambiguous:Nguyên Mạnh	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,7	0		
+C01	ambiguous:Thanh Bình	ambiguous:Thanh Bình	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,7	0		
+C01	ambiguous:Thanh Trung	ambiguous:Thanh Trung	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,2,9	1	1,2,9	
+C01	ambiguous:Tấn Tài	ambiguous:Tấn Tài	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,9	0		
+C01	ambiguous:Văn Long	ambiguous:Văn Long	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,8	1	1,8	
+C01	p-02a8d04bb909b2905749	Nguyễn Thanh Bình (cầu thủ bóng đá, sinh 1987)	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		0		1,6,7
+C01	p-037648339c4debbe21d7	Võ Huy Toàn	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,2,8	1	1,2,8	1,6,8
+C01	p-04238e7aefb9ce967b89	Nguyễn Huy Cường	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,2,8	1	1,2,8	1,6,8
+C01	p-0daf4c24833fb4874949	Vũ Minh Tuấn	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		0		1,6,9
+C01	p-2094a1a8002845b6cc90	Ngô Hoàng Thịnh	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,9	1	1,9	1,6,9
+C01	p-24613455b0f743c1d64b	Tô Vĩnh Lợi	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,7	1	1,7	1,6,7
+C01	p-2c01f4f41ccc6af71cc3	Lê Tấn Tài	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		0		1,6,9
+C01	p-44f512abd03b5aaf2453	Nguyễn Trọng Hoàng	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,9	1	1,9	1,6,9
+C01	p-488cef2c700ecf7cccc7	Đinh Thanh Trung	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		0		1,6,9
+C01	p-4e0a835e9aa68696b9ec	Trần Nguyên Mạnh	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		1	1,7	1,6,7
+C01	p-4fa9e4c0c4c63eb90748	Nguyễn Minh Châu (cầu thủ bóng đá)	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,9	1	1,9	1,6,9
+C01	p-5664b12224bb2604b29f	Nguyễn Văn Biển	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,8	1	1,8	1,6,8
+C01	p-5c88d1541a2306be6d35	Đinh Tiến Thành	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		0		1,6,8
+C01	p-6274e9ab2e85e175e09e	Âu Văn Hoàn	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,8	1	1,8	1,6,8
+C01	p-6b148f4d8541630f0740	Hà Minh Tuấn	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		1	1,9	
+C01	p-7fa78051efe9f38bb928	Nguyễn Vũ Phong	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,2,9	1	1,2,9	1,6,9
+C01	p-82139e68ac71c333570a	Mai Tiến Thành	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,8	1	1,8	
+C01	p-8b9a0d0a0ddacf35d566	Hoàng Minh Tâm	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,2,9	1	1,2,9	1,6,9
+C01	p-ab026ef6f5b07ed12125	Lê Công Vinh	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,10	1	1,10	1,6,10
+C01	p-b3e687b88700c948d397	Nguyễn Thanh Bình (cầu thủ bóng đá, sinh 2000)	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		1	1,7	
+C01	p-c302b0a5061105350a37	Nguyễn Hải Anh (cầu thủ bóng đá)	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		0		1,6,10
+C01	p-c4b6202e078ee06ccb9a	Quế Ngọc Hải	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,2,8	1	1,2,8	1,6,8
+C01	p-e52154c77eaa31d5b8be	Lê Phước Tứ	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,8	1	1,8	1,6,8
+C01	p-e8c0eec505505624900a	Bùi Văn Long	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		0		1,6,8
+C01	p-f91726d9d8004441efd6	Phạm Thành Lương	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,2,9	1	1,2,9	1,6,9
+C01	p-fb2160fbb027e5850ed4	Hồ Tấn Tài	0	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	0		1	1,9	
+C01	p-nad	Nguyễn Anh Đức	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,10	1	1,10	1,6,10
+C01	p-vq	Nguyễn Văn Quyết	1	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	1	1,9	1	1,9	1,6,9
+C02	p-037648339c4debbe21d7	Võ Huy Toàn	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	9	1	9	9
+C02	p-0b1369fe9e9c323a0e85	Nghiêm Xuân Tú	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	1,2	1	1,2	1,2
+C02	p-0daf4c24833fb4874949	Vũ Minh Tuấn	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	3	1	3	2,3
+C02	p-1133a3b4fde078b48d15	Hoàng Đình Tùng	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	6	1	6	6
+C02	p-1788c34993db513f0d22	Huỳnh Tuấn Linh	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	3	1	3	2,3
+C02	p-2094a1a8002845b6cc90	Ngô Hoàng Thịnh	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	6	1	6	6
+C02	p-44f512abd03b5aaf2453	Nguyễn Trọng Hoàng	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	6	1	6	6
+C02	p-4c8dffd9cef2e7f6f46c	Trần Phi Sơn	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	7	1	7	7
+C02	p-4daf74f0a25fe6f642de	Trương Đình Luật	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	6	1	6	6
+C02	p-4e0a835e9aa68696b9ec	Trần Nguyên Mạnh	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	7	1	7	7
+C02	p-5d185388f975e9e73aa8	Nguyễn Minh Tùng	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	3	1	3	2,3
+C02	p-6274e9ab2e85e175e09e	Âu Văn Hoàn	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	6	1	6	6
+C02	p-78fb1cc2567fa8e30468	Lê Văn Thắng (cầu thủ bóng đá)	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	4	1	4	4
+C02	p-793575551c9e591c06b6	Sầm Ngọc Đức	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	4	1	4	4
+C02	p-82131952dc3f870e9873	Vũ Văn Thanh	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	8	1	8	8
+C02	p-85c2c632d2dcd7728fd1	Lương Xuân Trường	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	8	1	8	8
+C02	p-888d79877c03d6b1836c	Trần Đình Đồng	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	6	1	6	6
+C02	p-9c8674f43b6b3544caa2	Nguyễn Công Phượng	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	8	1	8	8
+C02	p-a2c40f68e14475c98bcb	Nguyễn Văn Toàn (cầu thủ bóng đá)	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	8	1	8	8
+C02	p-ab026ef6f5b07ed12125	Lê Công Vinh	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	6	1	6	6
+C02	p-b5f84086468aac32626f	Đặng Văn Lâm	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	4	1	4	4
+C02	p-c4b6202e078ee06ccb9a	Quế Ngọc Hải	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	7	1	7	7
+C02	p-df901c4ff615fa8f4292	Nguyễn Tuấn Mạnh	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	1	1	1	1,2
+C02	p-ed4d03d3ac64ae7a6b1d	Nguyễn Tuấn Anh (cầu thủ bóng đá)	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	8	1	8	8
+C02	p-f008f38c4e41100b695f	Trần Đình Hoàng	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	7	1	7	7
+C02	p-f91726d9d8004441efd6	Phạm Thành Lương	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	4	1	4	4
+C02	p-vq	Nguyễn Văn Quyết	1	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	1	4	1	4	4
+C03	ambiguous:Bùi Tiến Dũng	ambiguous:Bùi Tiến Dũng	0	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	3	1	3	
+C03	p-0b1369fe9e9c323a0e85	Nghiêm Xuân Tú	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	9	1	9	9
+C03	p-0daf4c24833fb4874949	Vũ Minh Tuấn	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	10	1	10	10
+C03	p-1ae9a5755e10b50a0cf6	Đỗ Duy Mạnh	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	10	1	10	10
+C03	p-35b6282e1bc1d2376d11	Trần Đình Khương	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-36ea03fcd105ba8f0770	Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1995)	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	0		0		2,4
+C03	p-43bd6fdae12b0bbc9684	Huỳnh Tấn Sinh	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-488cef2c700ecf7cccc7	Đinh Thanh Trung	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	10	1	10	10
+C03	p-571375a0065db49c0ba9	Hoàng Văn Khánh (cầu thủ bóng đá)	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-6274e9ab2e85e175e09e	Âu Văn Hoàn	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-793575551c9e591c06b6	Sầm Ngọc Đức	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-82131952dc3f870e9873	Vũ Văn Thanh	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-85c2c632d2dcd7728fd1	Lương Xuân Trường	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	9	1	9	9
+C03	p-8ba1e99038731a7d8ee0	Hà Đức Chinh	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	5	1	5	5
+C03	p-9c8674f43b6b3544caa2	Nguyễn Công Phượng	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	10	1	10	10
+C03	p-9da7d3c56cd3edf5afb1	A Hoàng	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-c4b6202e078ee06ccb9a	Quế Ngọc Hải	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-d23be642790136a81277	Nguyễn Phong Hồng Duy	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	10	1	10	10
+C03	p-deb33af45aeed9c8edf9	Nguyễn Huy Hùng	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	10	1	10	10
+C03	p-e8b0cc79dbb1d0449e9b	Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1997)	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	0		0		2,3
+C03	p-ed4d03d3ac64ae7a6b1d	Nguyễn Tuấn Anh (cầu thủ bóng đá)	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	9	1	9	9
+C03	p-f124ef8acf0d16764a44	Trần Đình Trọng	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-f2309d44164c26ee6b65	Đoàn Văn Hậu	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-fb2160fbb027e5850ed4	Hồ Tấn Tài	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	4	1	4	2,4
+C03	p-qh	Nguyễn Quang Hải	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	5	1	5	5
+C03	p-vq	Nguyễn Văn Quyết	1	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	1	10	1	10	10
+C04	p-44f512abd03b5aaf2453	Nguyễn Trọng Hoàng	1	https://tuoitre.vn/hlv-park-hang-seo-vang-mat-doi-tuyen-vn-co-hlv-the-luc-moi-20181222191729322.htm	0		0		1,5
+C04	p-b71661753b33d6c6e948	Trần Minh Vương	1	https://tuoitre.vn/hlv-park-hang-seo-vang-mat-doi-tuyen-vn-co-hlv-the-luc-moi-20181222191729322.htm	1	6	1	6	6
+C04	p-c4b6202e078ee06ccb9a	Quế Ngọc Hải	1	https://tuoitre.vn/hlv-park-hang-seo-vang-mat-doi-tuyen-vn-co-hlv-the-luc-moi-20181222191729322.htm	0		0		1,4
+C04	p-qh	Nguyễn Quang Hải	1	https://tuoitre.vn/hlv-park-hang-seo-vang-mat-doi-tuyen-vn-co-hlv-the-luc-moi-20181222191729322.htm	0		0		1,4
+C05	p-037648339c4debbe21d7	Võ Huy Toàn	1	https://tuoitre.vn/3-su-tro-lai-dang-chu-y-cua-tuyen-viet-nam-2019092109595241.htm	1	1,2,8,9	1	1,2,7,8,9	1,2
+C05	p-2094a1a8002845b6cc90	Ngô Hoàng Thịnh	1	https://tuoitre.vn/3-su-tro-lai-dang-chu-y-cua-tuyen-viet-nam-2019092109595241.htm	1	1,2,12,13	1	1,2,12,13	1,2
+C05	p-83313bc445f4e75dd841	Mạc Hồng Quân	1	https://tuoitre.vn/3-su-tro-lai-dang-chu-y-cua-tuyen-viet-nam-2019092109595241.htm	1	1,2,5	1	1,2,5	1,2
+C06	ambiguous:Thành Long	ambiguous:Thành Long	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2,9	1	2,9	
+C06	ambiguous:Tiến Anh	ambiguous:Tiến Anh	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2,3,9	1	2,3,9	
+C06	ambiguous:Tuấn Tài	ambiguous:Tuấn Tài	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	4	0		
+C06	ambiguous:Văn Phong	ambiguous:Văn Phong	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	
+C06	ambiguous:Văn Toản	ambiguous:Văn Toản	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	4	0		
+C06	ambiguous:Văn Tùng	ambiguous:Văn Tùng	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	4	1	4	
+C06	ambiguous:Văn Đức	ambiguous:Văn Đức	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2	0		
+C06	p-03083cc7707fa0ca8514	Nguyễn Thái Sơn (cầu thủ bóng đá)	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	4	1	4	4
+C06	p-0e40dac7c9909c4002a0	Phạm Văn Phong	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		9,10
+C06	p-1db9b0a02c337221997c	Nguyễn Văn Toản	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		1	4	4
+C06	p-1eeffd98f81fa82b8bec	Vũ Quang Nam	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	9,10
+C06	p-2abb0c125ad5ae1142f2	Phạm Văn Luân	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	9,10
+C06	p-2e88603986547fc2add0	Phan Tuấn Tài	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		1	4	4
+C06	p-7e60385e92dfee0e6e35	Nguyễn Hoàng Đức	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		14
+C06	p-8a716f24f6c2bf1006aa	Lê Phạm Thành Long	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		2
+C06	p-8e237039c98e4b68b981	Nguyễn Hữu Sơn	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	9,10
+C06	p-8fa94f0588c06eae5aba	Đỗ Hùng Dũng	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		14
+C06	p-9c6f2a21fef4df074809	Nguyễn Đình Triệu	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2,9	1	2,9	2
+C06	p-9ee270434fab25352be2	Trần Minh Toàn	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2	1	2	2
+C06	p-a320ff79c4867c684df3	Lâm Ti Phông	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2,9	1	2,9	2
+C06	p-a7378295ca2b7d2e466b	Nguyễn Trọng Long	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2	1	2	2
+C06	p-aa09a97c657db2531d57	Phạm Trung Hiếu	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	9,10
+C06	p-bfecd3b97fa1ce3c64f7	Trương Tiến Anh	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		2
+C06	p-c2a5721bb117282bd6c1	Hoàng Thái Bình	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	9,10
+C06	p-d036a52efb218b35293e	Nguyễn Văn Tùng (cầu thủ bóng đá, sinh 2001)	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		4
+C06	p-d08327a6fcd45f3a7e21	Bùi Văn Đức	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		2
+C06	p-e3a497e1e4806ae8df9c	Phan Văn Đức	0	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		1	2	
+C06	p-ed4d03d3ac64ae7a6b1d	Nguyễn Tuấn Anh (cầu thủ bóng đá)	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		14
+C06	p-f2309d44164c26ee6b65	Đoàn Văn Hậu	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		13
+C06	p-f673ffd35114380005e7	Triệu Việt Hưng	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	2,9	1	2,9	2
+C06	p-fb2160fbb027e5850ed4	Hồ Tấn Tài	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		1	13	13
+C06	p-fc03a2e45ace6b68b609	Nguyễn Đức Chiến	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	9,10
+C06	p-ff79ed0f27a5cdf09e15	Dương Văn Hào	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	1	10	1	10	9,10
+C06	p-qh	Nguyễn Quang Hải	1	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	0		0		14
+C07	ambiguous:Quốc Việt	ambiguous:Quốc Việt	0	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	
+C07	ambiguous:Văn Việt	ambiguous:Văn Việt	0	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	
+C07	p-026c9491fdee611e63cf	Nguyễn Quốc Việt	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	0		0		2
+C07	p-03083cc7707fa0ca8514	Nguyễn Thái Sơn (cầu thủ bóng đá)	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-1356112d0dad68223663	Giáp Tuấn Dương	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-1a84d4526d7d086832d3	Châu Ngọc Quang	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-2e7666b076cfc615f9e1	Bùi Vĩ Hào	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-309e72c8cfbeb856640c	Đinh Văn Trường	0	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	
+C07	p-3caf161e7d395a486820	Nguyễn Văn Trường (cầu thủ bóng đá, sinh tháng 9 năm 2003)	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	0		0		2
+C07	p-46ba7e65dc06be62f465	Bùi Hoàng Việt Anh	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-66ba7db0749e5dd6c6dd	Khuất Văn Khang	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-8a716f24f6c2bf1006aa	Lê Phạm Thành Long	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-9b1174e2d2d1c2a025f9	Nguyễn Đình Bắc	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-b0e803f6e54c12e3b21d	Trần Trung Kiên	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-d5573d93ab48da0a705b	Tô Văn Vũ	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C07	p-ff8e44f9f9792f4ea9ec	Nguyễn Văn Việt (cầu thủ bóng đá, sinh 2002)	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	0		0		2
+C07	p-vq	Nguyễn Văn Quyết	1	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	1	2	1	2	2
+C08	ambiguous:Hoàng Đức	ambiguous:Hoàng Đức	0	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	5	0		
+C08	p-1141ed82601031e5605b	Nguyễn Tiến Linh	0	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	3	1	3	
+C08	p-22e3c7ec9e8e3aa7aa2e	Võ Hoàng Minh Khoa	1	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	5	1	5	5
+C08	p-2e7666b076cfc615f9e1	Bùi Vĩ Hào	1	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	4	1	4	4
+C08	p-7e60385e92dfee0e6e35	Nguyễn Hoàng Đức	0	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	0		1	5	
+C08	p-a7c344be20536eae4e45	Nguyễn Hai Long	0	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	5	1	5	
+C08	p-eefeb3673aea7dc4ca20	Đinh Thanh Bình	1	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	4	1	4	4
+C08	p-qh	Nguyễn Quang Hải	0	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	5	1	5	
+C08	p-th	Phạm Tuấn Hải	0	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	1	4	1	4	
+C09	p-1141ed82601031e5605b	Nguyễn Tiến Linh	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	6	1	6	6
+C09	p-22e3c7ec9e8e3aa7aa2e	Võ Hoàng Minh Khoa	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	6	1	6	6
+C09	p-4bee8b3ac0909bc736ec	Cao Văn Bình	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	0		0		9
+C09	p-5eb9e38005dfc187a199	Cao Pendant Quang Vinh	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	1,2	1	1,2	1,2,3,6
+C09	p-7f012bb1306ba885e4dd	Nguyễn Filip	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	6	1	6	6
+C09	p-9c6f2a21fef4df074809	Nguyễn Đình Triệu	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	7	1	7	7,8
+C09	p-9c8674f43b6b3544caa2	Nguyễn Công Phượng	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	7	1	7	7,8
+C09	p-fc03a2e45ace6b68b609	Nguyễn Đức Chiến	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	7	1	7	7,8
+C09	p-qh	Nguyễn Quang Hải	1	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	1	6	1	6	6
+C10	p-1ae9a5755e10b50a0cf6	Đỗ Duy Mạnh	1	https://tuoitre.vn/tuyen-viet-nam-co-doi-pho-la-cau-thu-viet-kieu-phap-20251008200318057.htm	1	3	1	3	1,2,3
+C10	p-5eb9e38005dfc187a199	Cao Pendant Quang Vinh	1	https://tuoitre.vn/tuyen-viet-nam-co-doi-pho-la-cau-thu-viet-kieu-phap-20251008200318057.htm	1	1,2,3,4,8	1	1,2,3,4,8	1,2,3
+C10	p-7e60385e92dfee0e6e35	Nguyễn Hoàng Đức	1	https://tuoitre.vn/tuyen-viet-nam-co-doi-pho-la-cau-thu-viet-kieu-phap-20251008200318057.htm	1	3	1	3	1,2,3
+C10	p-b5f84086468aac32626f	Đặng Văn Lâm	1	https://tuoitre.vn/tuyen-viet-nam-co-doi-pho-la-cau-thu-viet-kieu-phap-20251008200318057.htm	1	8	1	8	8
+C10	p-qh	Nguyễn Quang Hải	0	https://tuoitre.vn/tuyen-viet-nam-co-doi-pho-la-cau-thu-viet-kieu-phap-20251008200318057.htm	1	5	1	5	

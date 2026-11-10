@@ -1,0 +1,15 @@
+bai	url	model	served	nhan	truoc_tp	truoc_fp	truoc_fn	sau_tp	sau_fp	sau_fn
+C01	https://tuoitre.vn/hlv-miura-chon-24-tuyen-thu-cho-doi-tuyen-vn-803964.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	24	16	8	8	17	7	7
+C02	https://thanhnien.vn/nghiem-xuan-tu-lan-dau-duoc-trieu-tap-vao-doi-tuyen-viet-nam-1851321584.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	27	27	0	0	27	0	0
+C03	https://thanhnien.vn/doi-tuyen-viet-nam-co-cong-phuong-tai-sao-thieu-van-toan-1851326352.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	25	23	1	2	23	1	2
+C04	https://tuoitre.vn/hlv-park-hang-seo-vang-mat-doi-tuyen-vn-co-hlv-the-luc-moi-20181222191729322.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	4	1	0	3	1	0	3
+C05	https://tuoitre.vn/3-su-tro-lai-dang-chu-y-cua-tuyen-viet-nam-2019092109595241.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	3	3	0	0	3	0	0
+C06	https://thanhnien.vn/tan-binh-nao-sang-cua-da-chinh-o-doi-tuyen-viet-nam-185230903091414705.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	26	13	7	13	16	5	10
+C07	https://thanhnien.vn/nhung-cai-ten-cu-co-thay-doi-duoc-loi-choi-cua-doi-tuyen-viet-nam-18524100222441129.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	14	11	3	3	11	3	3
+C08	https://thanhnien.vn/doi-tuyen-viet-nam-va-bai-toan-vang-tien-linh-185250309184241459.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	3	3	5	0	3	5	0
+C09	https://tuoitre.vn/cao-quang-vinh-tap-buoi-dau-cong-phuong-van-vang-mat-o-tuyen-viet-nam-20250601184412116.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	9	8	0	1	8	0	1
+C10	https://tuoitre.vn/tuyen-viet-nam-co-doi-pho-la-cau-thu-viet-kieu-phap-20251008200318057.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	4	4	1	0	4	1	0
+C11	https://tuoitre.vn/duc-chinh-thu-mon-bui-tien-dung-duoc-trieu-tap-vao-doi-tuyen-u22-viet-nam-20190822185950845.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	0	0	0	0	0	0	0
+C12	https://tuoitre.vn/hlv-kim-sang-sik-goi-bo-sung-tien-ve-nguyen-duc-viet-len-tuyen-u23-viet-nam-20250624163357816.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	0	0	0	0	0	0	0
+C13	https://tuoitre.vn/thu-mon-goc-viet-filip-nguyen-duoc-trieu-tap-len-tuyen-ch-czech-20200906153404718.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	0	0	0	0	0	0	0
+C14	https://thanhnien.vn/sao-tre-doi-tuyen-nu-viet-nam-chua-het-tiec-nuoi-co-hoi-bo-lo-truoc-duc-185230630181655551.htm	gemini-3.1-flash-lite	gemini-3.1-flash-lite	0	0	0	0	0	0	0

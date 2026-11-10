@@ -174,3 +174,5 @@ Khi có thư mục phản hồi API đã lưu, có thể kiểm tra thay đổi 
 python nlp_bao/chuan_hoa_lai.py work/bao_test.jsonl work/a3_final/entities.csv work/phan_hoi_cu work/chuan_hoa
 python nlp_bao/danh_gia.py work/bao_test.jsonl nlp_bao/mau_kiem_tra/nhan_test.tsv work/a3_final/entities.csv work/chuan_hoa work/diem_chuan_hoa --allow-mixed
 ```
+
+Lượt kiểm tra riêng quan hệ triệu tập dùng cùng phản hồi Gemini trên 14 bài mới cho hai phiên bản. [Xem số liệu và đối chiếu từng cạnh](nlp_bao/kiem_thu_trieu_tap/README.md).

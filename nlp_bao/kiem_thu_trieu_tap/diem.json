@@ -1,0 +1,48 @@
+{
+  "articles": 14,
+  "gold": 139,
+  "old_code_sha256": "17d43569df96a01c18d72c05d1f848d7af0974af98f24d05fcc0076e3b1c64e9",
+  "versions": [
+    {
+      "model": "gemini-3.1-flash-lite",
+      "served": "gemini-3.1-flash-lite",
+      "n": 14
+    }
+  ],
+  "scores": {
+    "truoc": {
+      "tp": 109,
+      "fp": 25,
+      "fn": 30,
+      "precision": 0.8134328358208955,
+      "recall": 0.7841726618705036,
+      "f1": 0.7985347985347986
+    },
+    "sau": {
+      "tp": 113,
+      "fp": 22,
+      "fn": 26,
+      "precision": 0.837037037037037,
+      "recall": 0.8129496402877698,
+      "f1": 0.8248175182481752
+    }
+  },
+  "newly_correct": 4,
+  "lost_correct": 0,
+  "new_false": 5,
+  "removed_false": 8,
+  "tp_with_overlapping_gold_paragraph": 113,
+  "sha256": {
+    "articles": "c00ffff5fdefc4b2f41865e787eb062d360b2c2745988bcd7bc965f6f0907744",
+    "gold": "f5276c1165889fee332bc87fb40d5eeec14a32f3bd36349589239c51b16c0d76",
+    "trich_xuat.py": "bfb24df808ac71d2db687db7cb456fa45603b26545bb13c2b1a0a67fa13f1387",
+    "trieu_tap.py": "52b2f5ddf486a06369e9171031e756a0b1bef1b08314ceb7e52922bf52229142",
+    "ten_tuyen_thu.tsv": "d24b69131a3df8cef3a6f1016ee288ea7f0f357a1a37f2720f8e1b86feb73959",
+    "ten_clb.tsv": "6ca4c8f23f037ec7f744f8fb12bbbde7c7b0d87f9e6c5fe2860a92dd71a1ae84"
+  },
+  "delta_percentage_points": {
+    "precision": 2.3604201216141485,
+    "recall": 2.877697841726623,
+    "f1": 2.628271971337659
+  }
+}

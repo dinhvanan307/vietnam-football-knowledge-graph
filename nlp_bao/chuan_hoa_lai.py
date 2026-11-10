@@ -39,6 +39,8 @@ def main():
         meta["inference_code_sha256"] = meta.get("inference_code_sha256", meta["code_sha256"])
         meta["code_sha256"] = tx.digest(Path(tx.__file__).read_bytes())
         meta["aliases_sha256"] = tx.digest(Path(tx.__file__).with_name("ten_clb.tsv").read_bytes())
+        for field, filename in (("callup_code_sha256","trieu_tap.py"),("callup_names_sha256","ten_tuyen_thu.tsv")):
+            meta[field] = tx.digest(Path(tx.__file__).with_name(filename).read_bytes())
         result = dict(old, input=meta, edges=edges, rejected=rejected)
         with tempfile.NamedTemporaryFile(dir=args.output,mode="w",encoding="utf-8",delete=False) as stream:
             json.dump(result,stream,ensure_ascii=False)

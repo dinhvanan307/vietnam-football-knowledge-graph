@@ -1,0 +1,259 @@
+{
+  "api_groups": [
+    {
+      "requested": "gemini-3.1-flash-lite",
+      "served": "gemini-3.1-flash-lite",
+      "articles": [
+        "T12"
+      ],
+      "scores": {
+        "pilot": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "tu_dien_A3": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "luat_va_gemini": {
+          "tp": 11,
+          "fp": 3,
+          "fn": 10,
+          "precision": 0.7857142857142857,
+          "recall": 0.5238095238095238,
+          "f1": 0.6285714285714286
+        }
+      }
+    },
+    {
+      "requested": "gemini-3.5-flash",
+      "served": "gemini-3.6-flash",
+      "articles": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09",
+        "T10",
+        "T11",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T17",
+        "T18"
+      ],
+      "scores": {
+        "pilot": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "tu_dien_A3": {
+          "tp": 4,
+          "fp": 8,
+          "fn": 28,
+          "precision": 0.3333333333333333,
+          "recall": 0.125,
+          "f1": 0.18181818181818182
+        },
+        "luat_va_gemini": {
+          "tp": 15,
+          "fp": 10,
+          "fn": 17,
+          "precision": 0.6,
+          "recall": 0.46875,
+          "f1": 0.5263157894736842
+        }
+      }
+    }
+  ],
+  "articles": 18,
+  "gold": 53,
+  "model": {
+    "code_sha256": "ead5cf922808856dff3009703ffb9f94d564b2805fce7c2507af62122dd3c6e6",
+    "provider": "gemini",
+    "rules_sha256": "1ea557776393e8677e868fcce449d8e8bf36560a713101c10bcc80c5d74523d0",
+    "graph_sha256": "70fa722258d886565e12af67ebc3f9203ae7a1b81ece46c1598ab6d647632520",
+    "facts_sha256": "10b4823185d9ef9266d360c697a4e8e661165dcf0dfb52c14e6e9646a2bb5b5b",
+    "pilot_sha256": "6d5d76db4b171bfef0c81e205f2521467184ef0edcd1ee4d2ef26d0aedb6e93b"
+  },
+  "server_versions": {
+    "gemini-3.6-flash": 17,
+    "gemini-3.1-flash-lite": 1
+  },
+  "scores": {
+    "pilot": {
+      "overall": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 53,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "per_relation": {
+        "KY_HOP_DONG_VOI": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "DAN_DAT": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "DUOC_TRIEU_TAP_VAO": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "KY_LUAT": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "TAI_TRO": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "tu_dien_A3": {
+      "overall": {
+        "tp": 4,
+        "fp": 8,
+        "fn": 49,
+        "precision": 0.3333333333333333,
+        "recall": 0.07547169811320754,
+        "f1": 0.12307692307692308
+      },
+      "per_relation": {
+        "KY_HOP_DONG_VOI": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "DAN_DAT": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "DUOC_TRIEU_TAP_VAO": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 30,
+          "precision": 1.0,
+          "recall": 0.03225806451612903,
+          "f1": 0.0625
+        },
+        "KY_LUAT": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 7,
+          "precision": 0.25,
+          "recall": 0.125,
+          "f1": 0.16666666666666666
+        },
+        "TAI_TRO": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333333333333333
+        }
+      }
+    },
+    "luat_va_gemini": {
+      "overall": {
+        "tp": 26,
+        "fp": 13,
+        "fn": 27,
+        "precision": 0.6666666666666666,
+        "recall": 0.49056603773584906,
+        "f1": 0.5652173913043478
+      },
+      "per_relation": {
+        "KY_HOP_DONG_VOI": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "DAN_DAT": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 2,
+          "precision": 0.75,
+          "recall": 0.8181818181818182,
+          "f1": 0.782608695652174
+        },
+        "DUOC_TRIEU_TAP_VAO": {
+          "tp": 16,
+          "fp": 6,
+          "fn": 15,
+          "precision": 0.7272727272727273,
+          "recall": 0.5161290322580645,
+          "f1": 0.6037735849056604
+        },
+        "KY_LUAT": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "TAI_TRO": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666
+        }
+      }
+    }
+  },
+  "tp_trung_doan": 26
+}

@@ -144,3 +144,33 @@ scrapy runspider thu_bao_mau.py -a seeds=templates/seeds_pilot.tsv -a out=work/b
 ```
 
 Spider kiểm tra `robots.txt`, lưu kết quả vào thư mục mới và ghi URL lỗi vào `errors.tsv`. Nội dung trên web có thể thay đổi theo thời gian. Các mục 3–5 dùng bản nguồn đã khóa của nhóm để tái lập số liệu trong báo cáo.
+
+## 7. Kiểm tra quan hệ trong tin báo bằng API
+
+Bộ luật gợi ý cặp thực thể. Gemini đọc toàn bài, đối chiếu từng đề xuất, tìm các quan hệ bị bỏ sót và trả về số đoạn làm bằng chứng. Bộ chấm đối chiếu kết quả với nhãn đã khóa theo mã bài, chủ thể, loại quan hệ và đối tượng. Năm loại đang xét gồm ký hợp đồng, dẫn dắt CLB, triệu tập lên tuyển, kỷ luật cầu thủ và tài trợ CLB.
+
+Từ thư mục gốc của repo, khôi phục A3 theo mục 2, đặt biến môi trường `GEMINI_API_KEY`, rồi chạy trong môi trường Python của nhóm. `work/bao_test.jsonl` chứa một bài trên mỗi dòng với ba trường `article_id`, `canonical_url`, `clean_text`. Với lô kiểm tra của nhóm, dùng bản `Nang_cap_NLP/test_final.jsonl` lưu cùng gói nguồn riêng và sao chép vào đường dẫn này.
+
+```sh
+python nlp_bao/trich_xuat.py work/bao_test.jsonl work/kiem_tra_gemini --entities work/a3_final/entities.csv --model gemini-3.5-flash
+python nlp_bao/danh_gia.py work/bao_test.jsonl nlp_bao/mau_kiem_tra/nhan_test.tsv work/a3_final/entities.csv work/kiem_tra_gemini work/diem_gemini
+```
+
+Mỗi bài hoàn tất được lưu riêng trong `work/kiem_tra_gemini`. Chạy lại lệnh sẽ bỏ qua bài đã lưu với đúng phiên bản đầu vào. Bảng [18 bài kiểm tra](nlp_bao/mau_kiem_tra/mau_test_final.tsv) và [53 nhãn tham chiếu](nlp_bao/mau_kiem_tra/nhan_test.tsv) dùng cho phép đo trên bài báo mới. Nhãn tham chiếu do Codex lập trước khi chạy API. Các bài được chọn theo chủ đề, gồm cả bài không có quan hệ thuộc phạm vi.
+
+Trong lần chạy đủ 18 bài, API nhận tên model `gemini-3.5-flash` cho 17 bài và trả về tên phiên bản `gemini-3.6-flash`. Riêng T12 dùng `gemini-3.1-flash-lite` sau khi model chính hết hạn mức ngày. T12 có 21/53 quan hệ tham chiếu. File điểm có số liệu riêng từng nhóm model.
+
+| Phương án | TP / FP / FN | Precision | Recall | F1 |
+|---|---:|---:|---:|---:|
+| Luật với từ điển A3 | 4 / 8 / 49 | 33,33% | 7,55% | 12,31% |
+| Luật và Gemini, lần đo trước sửa | 26 / 13 / 27 | 66,67% | 49,06% | 56,52% |
+| Chạy lại sau sửa liên kết trên cùng phản hồi API | 38 / 7 / 15 | 84,44% | 71,70% | 77,55% |
+
+Phiên bản sau xử lý chiều VFF–cầu thủ, ưu tiên tên có dấu, đối chiếu tên CLB theo pageid và gộp tên người rút gọn khi chỉ có một cách ghép trong cùng quan hệ. Lượt cuối dùng lại các bài đã xem để sửa lỗi. 14/15 quan hệ bỏ sót thuộc nhóm triệu tập. [Điểm trước sửa](nlp_bao/mau_kiem_tra/diem_api/diem.json) · [Điểm sau sửa](nlp_bao/mau_kiem_tra/diem_api_chuan_hoa/diem.json) · [Đối chiếu từng cạnh](nlp_bao/mau_kiem_tra/diem_api_chuan_hoa/doi_chieu.tsv)
+
+Khi có thư mục phản hồi API đã lưu, có thể kiểm tra thay đổi luật mà không gửi thêm yêu cầu tới dịch vụ. Đặt mỗi JSON theo mã bài vào cùng thư mục `work/phan_hoi_cu`. Lệnh chấm dùng `--allow-mixed` khi tập phản hồi có nhiều phiên bản model.
+
+```sh
+python nlp_bao/chuan_hoa_lai.py work/bao_test.jsonl work/a3_final/entities.csv work/phan_hoi_cu work/chuan_hoa
+python nlp_bao/danh_gia.py work/bao_test.jsonl nlp_bao/mau_kiem_tra/nhan_test.tsv work/a3_final/entities.csv work/chuan_hoa work/diem_chuan_hoa --allow-mixed
+```

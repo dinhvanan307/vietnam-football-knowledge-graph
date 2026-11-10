@@ -6,6 +6,21 @@ from urllib.parse import urlparse, urljoin, urldefrag
 import scrapy
 from trafilatura import extract
 
+def article_body(response, url):
+    article = response.css('[data-role="content"]')
+    main_text = ('not(ancestor::figure or ancestor::table or ancestor::aside or '
+                 'ancestor::script or ancestor::style or ancestor::*[contains(@class,"VCSortableInPreviewMode")])')
+    blocks = article.xpath(f'.//p[{main_text}] | ./div[not(@class) and not(.//p)]')
+    parts = []
+    for block in list(response.css('[data-role="sapo"]')) + list(blocks):
+        text = "".join(block.xpath(f'.//text()[{main_text}]').getall())
+        line = " ".join(text.split())
+        if line and line not in parts:
+            parts.append(line)
+    body = "\n\n".join(parts)
+    return body if len(body) >= 80 else (extract(response.body, url=url, include_comments=False, include_tables=False) or "")
+
+
 class News(scrapy.Spider):
     name="d22_seeds"
     allowed_domains=["tuoitre.vn","thanhnien.vn"]
@@ -49,17 +64,7 @@ class News(scrapy.Spider):
             iso=datetime.fromisoformat(stamp.replace("Z","+00:00"));stamp=iso.isoformat() if iso.utcoffset() is not None else iso.date().isoformat()
             if not 2012 <= iso.year <= 2025:
                 raise ValueError("publication_outside_2012_2025")
-            # Hai báo dùng data-role để phân biệt sapo/nội dung với tin bên lề.
-            article=response.css('[data-role="content"]')
-            paragraphs=response.css('[data-role="sapo"]') + article.xpath('.//p[not(ancestor::figure or ancestor::table or ancestor::aside or ancestor::*[contains(@class,"VCSortableInPreviewMode")])]')
-            parts=[]
-            for element in paragraphs:
-                line=" ".join(element.xpath("string(.)").get("").split())
-                if line and line not in parts:
-                    parts.append(line)
-            body="\n\n".join(parts)
-            if len(body)<80:
-                body=extract(response.body,url=u,include_comments=False,include_tables=False) or ""
+            body = article_body(response, u)
             if not title or len(body.strip())<80:raise ValueError("empty/short article or missing title")
             (self.out/clean).write_text(body.strip(),encoding="utf-8")
             self.record("intake.tsv",self.fields,dict(source=seed["source"],source_kind="press",canonical_url=u,title=title,published_at=stamp,retrieved_at=datetime.now(timezone.utc).isoformat(),story_group=seed.get("story_group") or "pending-"+key,raw_file=raw,text_file=clean))

@@ -1,0 +1,182 @@
+model	bai	nguon_id	quan_he	dich_id	ket_qua	url
+pilot	T01	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-gia-nhap-clb-topenland-binh-dinh-20220811134314936.htm
+pilot	T01	p-b5f84086468aac32626f	KY_HOP_DONG_VOI	c-binhdinh	FN	https://tuoitre.vn/thu-mon-dang-van-lam-gia-nhap-clb-topenland-binh-dinh-20220811134314936.htm
+pilot	T02	p-9c8674f43b6b3544caa2	KY_HOP_DONG_VOI	club-w3176765	FN	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+pilot	T02	p-nad	DAN_DAT	club-w3176765	FN	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+pilot	T03	p-4cb42d7597047ea07e05	DAN_DAT	c-binhdinh	FN	https://thanhnien.vn/roi-doi-binh-dinh-ngoi-sao-tuyen-viet-nam-gia-nhap-clb-cong-an-ha-noi-1851542646.htm
+pilot	T04	new:Gong Oh-kyun	DAN_DAT	c-cahn	FN	https://thanhnien.vn/hlv-gong-oh-kyun-dau-an-nho-dam-mao-hiem-o-clb-cong-an-ha-noi-185231126112616411.htm
+pilot	T05	new:Kiatisak Senamuang	DAN_DAT	c-hagl	FN	https://thanhnien.vn/kiatisak-gia-han-hop-dong-voi-hagl-thong-diep-manh-me-cua-bau-duc-1851525425.htm
+pilot	T06	p-0e68526ebf1ee336513c	DAN_DAT	c-hcm	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+pilot	T06	p-1a6afd6e11a9f87bbf1e	DAN_DAT	c-nd	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+pilot	T06	p-d4d75bfa0b8135a58d54	DAN_DAT	c-hcm	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+pilot	T06	p-ef7771875b52a8ef944a	DAN_DAT	c-nd	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+pilot	T07	o-vff	KY_LUAT	p-2d69fa99293a4a9e5f7e	FN	https://tuoitre.vn/nguyen-van-quan-bi-phat-20-trieu-dinh-chi-thi-dau-den-het-luot-di-giai-hang-nhat-2019-20190402110619538.htm
+pilot	T08	o-vff	KY_LUAT	c-binhdinh	FP	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+pilot	T08	o-vff	KY_LUAT	new:Nguyễn Thế Thịnh	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+pilot	T08	o-vff	KY_LUAT	new:Đinh Trường Đệ	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+pilot	T08	o-vff	KY_LUAT	new:Đào Gia Bảo	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+pilot	T08	o-vff	KY_LUAT	p-495695e636cc187971c4	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+pilot	T08	o-vff	KY_LUAT	p-c88141a9ad042b83bfa2	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+pilot	T09	o-vff	KY_LUAT	p-418a232c9504df92932b	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+pilot	T09	o-vff	KY_LUAT	p-722ff58f87aff178214b	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+pilot	T09	p-61049e638fcc86cc5bb9	DAN_DAT	club-w38553	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+pilot	T10	p-1d9bd2d282023c44dbad	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+pilot	T10	p-1db9b0a02c337221997c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+pilot	T10	p-afc94b4750a3c106f6a7	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+pilot	T10	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+pilot	T11	p-38834294008a10ce0a0c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+pilot	T11	p-3cd44b24f6ee882483c5	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+pilot	T11	p-9c8674f43b6b3544caa2	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+pilot	T11	p-ae22a635f8de82ef2e7c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+pilot	T11	p-d7805f7c3f50104165e0	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+pilot	T12	p-1d9bd2d282023c44dbad	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-2742077ccf3fa23fb505	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-2d822f5132064a131bcd	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-36ea03fcd105ba8f0770	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-37e4a15cb21c67298de8	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-46ba7e65dc06be62f465	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-4af15369f40ff99d1448	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-6cc5d553049e4d85f5db	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-7b267d04561c4da6583a	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-8fa94f0588c06eae5aba	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-a88d90384b38ccfa901c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-afc94b4750a3c106f6a7	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-b3e687b88700c948d397	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-c392c257e89dbcddf7e4	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-d23be642790136a81277	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-d5573d93ab48da0a705b	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-e3a497e1e4806ae8df9c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-f124ef8acf0d16764a44	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-qh	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-sm	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T12	p-th	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+pilot	T14	firm-w18044912	TAI_TRO	c-hagl	FN	https://thanhnien.vn/bau-duc-va-bau-hai-tinh-cam-van-tham-thiet-nutifood-tai-tro-clb-hagl-18525040509411619.htm
+pilot	T18	p-3f883fbb7450b6bf5cde	DAN_DAT	c-hp	FN	https://thanhnien.vn/the-cong-viettel-nguoc-dong-ngoan-muc-bang-ban-thang-phut-103-hai-phong-lo-co-hoi-quy-185240530163521874.htm
+pilot	T18	p-4cb42d7597047ea07e05	DAN_DAT	c-tc	FN	https://thanhnien.vn/the-cong-viettel-nguoc-dong-ngoan-muc-bang-ban-thang-phut-103-hai-phong-lo-co-hoi-quy-185240530163521874.htm
+tu_dien_A3	T01	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-gia-nhap-clb-topenland-binh-dinh-20220811134314936.htm
+tu_dien_A3	T01	p-b5f84086468aac32626f	KY_HOP_DONG_VOI	c-binhdinh	TP	https://tuoitre.vn/thu-mon-dang-van-lam-gia-nhap-clb-topenland-binh-dinh-20220811134314936.htm
+tu_dien_A3	T02	p-9c8674f43b6b3544caa2	KY_HOP_DONG_VOI	c-hcm	FP	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+tu_dien_A3	T02	p-9c8674f43b6b3544caa2	KY_HOP_DONG_VOI	club-w3176765	FN	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+tu_dien_A3	T02	p-nad	DAN_DAT	club-w3176765	FN	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+tu_dien_A3	T03	p-4cb42d7597047ea07e05	DAN_DAT	c-binhdinh	FN	https://thanhnien.vn/roi-doi-binh-dinh-ngoi-sao-tuyen-viet-nam-gia-nhap-clb-cong-an-ha-noi-1851542646.htm
+tu_dien_A3	T04	new:Gong Oh-kyun	DAN_DAT	c-cahn	FN	https://thanhnien.vn/hlv-gong-oh-kyun-dau-an-nho-dam-mao-hiem-o-clb-cong-an-ha-noi-185231126112616411.htm
+tu_dien_A3	T05	new:Kiatisak Senamuang	DAN_DAT	c-hagl	FN	https://thanhnien.vn/kiatisak-gia-han-hop-dong-voi-hagl-thong-diep-manh-me-cua-bau-duc-1851525425.htm
+tu_dien_A3	T06	p-0e68526ebf1ee336513c	DAN_DAT	c-hcm	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+tu_dien_A3	T06	p-1a6afd6e11a9f87bbf1e	DAN_DAT	c-nd	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+tu_dien_A3	T06	p-d4d75bfa0b8135a58d54	DAN_DAT	c-hcm	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+tu_dien_A3	T06	p-ef7771875b52a8ef944a	DAN_DAT	c-nd	FN	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+tu_dien_A3	T07	o-vff	KY_LUAT	club-w314518	FP	https://tuoitre.vn/nguyen-van-quan-bi-phat-20-trieu-dinh-chi-thi-dau-den-het-luot-di-giai-hang-nhat-2019-20190402110619538.htm
+tu_dien_A3	T07	o-vff	KY_LUAT	p-2d69fa99293a4a9e5f7e	TP	https://tuoitre.vn/nguyen-van-quan-bi-phat-20-trieu-dinh-chi-thi-dau-den-het-luot-di-giai-hang-nhat-2019-20190402110619538.htm
+tu_dien_A3	T08	o-vff	KY_LUAT	c-binhdinh	FP	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+tu_dien_A3	T08	o-vff	KY_LUAT	club-w1811524	FP	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+tu_dien_A3	T08	o-vff	KY_LUAT	new:Nguyễn Thế Thịnh	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+tu_dien_A3	T08	o-vff	KY_LUAT	new:Đinh Trường Đệ	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+tu_dien_A3	T08	o-vff	KY_LUAT	new:Đào Gia Bảo	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+tu_dien_A3	T08	o-vff	KY_LUAT	p-495695e636cc187971c4	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+tu_dien_A3	T08	o-vff	KY_LUAT	p-c88141a9ad042b83bfa2	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+tu_dien_A3	T09	o-vff	KY_LUAT	p-418a232c9504df92932b	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+tu_dien_A3	T09	o-vff	KY_LUAT	p-722ff58f87aff178214b	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+tu_dien_A3	T09	p-61049e638fcc86cc5bb9	DAN_DAT	club-w38553	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+tu_dien_A3	T10	p-1d9bd2d282023c44dbad	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+tu_dien_A3	T10	p-1db9b0a02c337221997c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+tu_dien_A3	T10	p-afc94b4750a3c106f6a7	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+tu_dien_A3	T10	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+tu_dien_A3	T11	p-38834294008a10ce0a0c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+tu_dien_A3	T11	p-3cd44b24f6ee882483c5	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+tu_dien_A3	T11	p-9c8674f43b6b3544caa2	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+tu_dien_A3	T11	p-ae22a635f8de82ef2e7c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+tu_dien_A3	T11	p-d7805f7c3f50104165e0	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+tu_dien_A3	T12	p-1d9bd2d282023c44dbad	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-2742077ccf3fa23fb505	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-2d822f5132064a131bcd	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-36ea03fcd105ba8f0770	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-37e4a15cb21c67298de8	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-46ba7e65dc06be62f465	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-4af15369f40ff99d1448	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-6cc5d553049e4d85f5db	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-7b267d04561c4da6583a	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-8fa94f0588c06eae5aba	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-a88d90384b38ccfa901c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-afc94b4750a3c106f6a7	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-b3e687b88700c948d397	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-c392c257e89dbcddf7e4	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-d23be642790136a81277	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-d5573d93ab48da0a705b	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-e3a497e1e4806ae8df9c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-f124ef8acf0d16764a44	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-qh	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-sm	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T12	p-th	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+tu_dien_A3	T13	firm-w18044912	TAI_TRO	club-w445434	FP	https://thanhnien.vn/nutifood-tap-huan-kien-thuc-dinh-duong-cho-clb-bong-da-sai-gon-1851337404.htm
+tu_dien_A3	T13	firm-w18044912	TAI_TRO	g-vl1	FP	https://thanhnien.vn/nutifood-tap-huan-kien-thuc-dinh-duong-cho-clb-bong-da-sai-gon-1851337404.htm
+tu_dien_A3	T14	firm-w18044912	TAI_TRO	c-bd	FP	https://thanhnien.vn/bau-duc-va-bau-hai-tinh-cam-van-tham-thiet-nutifood-tai-tro-clb-hagl-18525040509411619.htm
+tu_dien_A3	T14	firm-w18044912	TAI_TRO	c-hagl	TP	https://thanhnien.vn/bau-duc-va-bau-hai-tinh-cam-van-tham-thiet-nutifood-tai-tro-clb-hagl-18525040509411619.htm
+tu_dien_A3	T14	firm-w18044912	TAI_TRO	g-vl1	FP	https://thanhnien.vn/bau-duc-va-bau-hai-tinh-cam-van-tham-thiet-nutifood-tai-tro-clb-hagl-18525040509411619.htm
+tu_dien_A3	T18	p-3f883fbb7450b6bf5cde	DAN_DAT	c-hp	FN	https://thanhnien.vn/the-cong-viettel-nguoc-dong-ngoan-muc-bang-ban-thang-phut-103-hai-phong-lo-co-hoi-quy-185240530163521874.htm
+tu_dien_A3	T18	p-4cb42d7597047ea07e05	DAN_DAT	c-tc	FN	https://thanhnien.vn/the-cong-viettel-nguoc-dong-ngoan-muc-bang-ban-thang-phut-103-hai-phong-lo-co-hoi-quy-185240530163521874.htm
+luat_va_gemini	T01	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-gia-nhap-clb-topenland-binh-dinh-20220811134314936.htm
+luat_va_gemini	T01	p-b5f84086468aac32626f	KY_HOP_DONG_VOI	c-binhdinh	FN	https://tuoitre.vn/thu-mon-dang-van-lam-gia-nhap-clb-topenland-binh-dinh-20220811134314936.htm
+luat_va_gemini	T01	p-b5f84086468aac32626f	KY_HOP_DONG_VOI	new:Topenland Bình Định	FP	https://tuoitre.vn/thu-mon-dang-van-lam-gia-nhap-clb-topenland-binh-dinh-20220811134314936.htm
+luat_va_gemini	T02	p-9c8674f43b6b3544caa2	KY_HOP_DONG_VOI	club-w3176765	FN	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+luat_va_gemini	T02	p-9c8674f43b6b3544caa2	KY_HOP_DONG_VOI	new:Trường Tươi Bình Phước	FP	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+luat_va_gemini	T02	p-nad	DAN_DAT	club-w3176765	FN	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+luat_va_gemini	T02	p-nad	DAN_DAT	new:Trường Tươi Bình Phước	FP	https://tuoitre.vn/cong-phuong-chinh-thuc-gia-nhap-clb-truong-tuoi-binh-phuoc-20240921185939927.htm
+luat_va_gemini	T03	p-4cb42d7597047ea07e05	DAN_DAT	c-binhdinh	TP	https://thanhnien.vn/roi-doi-binh-dinh-ngoi-sao-tuyen-viet-nam-gia-nhap-clb-cong-an-ha-noi-1851542646.htm
+luat_va_gemini	T03	p-fb2160fbb027e5850ed4	DUOC_TRIEU_TAP_VAO	nt-vn	FP	https://thanhnien.vn/roi-doi-binh-dinh-ngoi-sao-tuyen-viet-nam-gia-nhap-clb-cong-an-ha-noi-1851542646.htm
+luat_va_gemini	T03	p-fb2160fbb027e5850ed4	KY_HOP_DONG_VOI	c-cahn	FP	https://thanhnien.vn/roi-doi-binh-dinh-ngoi-sao-tuyen-viet-nam-gia-nhap-clb-cong-an-ha-noi-1851542646.htm
+luat_va_gemini	T04	new:Gong Oh-kyun	DAN_DAT	c-cahn	TP	https://thanhnien.vn/hlv-gong-oh-kyun-dau-an-nho-dam-mao-hiem-o-clb-cong-an-ha-noi-185231126112616411.htm
+luat_va_gemini	T05	new:Kiatisak	DAN_DAT	c-hagl	FP	https://thanhnien.vn/kiatisak-gia-han-hop-dong-voi-hagl-thong-diep-manh-me-cua-bau-duc-1851525425.htm
+luat_va_gemini	T05	new:Kiatisak Senamuang	DAN_DAT	c-hagl	TP	https://thanhnien.vn/kiatisak-gia-han-hop-dong-voi-hagl-thong-diep-manh-me-cua-bau-duc-1851525425.htm
+luat_va_gemini	T06	p-0e68526ebf1ee336513c	DAN_DAT	c-hcm	TP	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+luat_va_gemini	T06	p-1a6afd6e11a9f87bbf1e	DAN_DAT	c-nd	TP	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+luat_va_gemini	T06	p-d4d75bfa0b8135a58d54	DAN_DAT	c-hcm	TP	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+luat_va_gemini	T06	p-ef7771875b52a8ef944a	DAN_DAT	c-nd	TP	https://thanhnien.vn/hlv-vu-tien-thanh-vua-ve-clb-tphcm-cong-bo-thuong-moi-tran-thang-1-ti-dong-1851506414.htm
+luat_va_gemini	T07	o-vff	KY_LUAT	p-2d69fa99293a4a9e5f7e	FN	https://tuoitre.vn/nguyen-van-quan-bi-phat-20-trieu-dinh-chi-thi-dau-den-het-luot-di-giai-hang-nhat-2019-20190402110619538.htm
+luat_va_gemini	T08	o-vff	KY_LUAT	new:Nguyễn Thế Thịnh	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+luat_va_gemini	T08	o-vff	KY_LUAT	new:Đinh Trường Đệ	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+luat_va_gemini	T08	o-vff	KY_LUAT	new:Đào Gia Bảo	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+luat_va_gemini	T08	o-vff	KY_LUAT	p-495695e636cc187971c4	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+luat_va_gemini	T08	o-vff	KY_LUAT	p-c88141a9ad042b83bfa2	FN	https://tuoitre.vn/ban-giai-quyet-khieu-nai-vff-bac-don-cua-cuu-thu-mon-u23-viet-nam-vi-thi-dau-tieu-cuc-20200320145726887.htm
+luat_va_gemini	T09	o-vff	KY_LUAT	p-418a232c9504df92932b	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+luat_va_gemini	T09	o-vff	KY_LUAT	p-722ff58f87aff178214b	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+luat_va_gemini	T09	p-61049e638fcc86cc5bb9	DAN_DAT	club-w38553	FN	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+luat_va_gemini	T09	p-61049e638fcc86cc5bb9	DAN_DAT	new:Long An	FP	https://tuoitre.vn/hang-loat-an-phat-nang-danh-cho-doi-long-an-1268587.htm
+luat_va_gemini	T10	ambiguous:Đặng Văn Lâm	DUOC_TRIEU_TAP_VAO	nt-vn	FP	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+luat_va_gemini	T10	p-1d9bd2d282023c44dbad	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+luat_va_gemini	T10	p-1db9b0a02c337221997c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+luat_va_gemini	T10	p-afc94b4750a3c106f6a7	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+luat_va_gemini	T10	p-b5f84086468aac32626f	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/thu-mon-dang-van-lam-duoc-trieu-tap-bo-sung-vao-doi-tuyen-viet-nam-20210818142726657.htm
+luat_va_gemini	T11	ambiguous:Văn Kiên	DUOC_TRIEU_TAP_VAO	nt-vn	FP	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+luat_va_gemini	T11	p-38834294008a10ce0a0c	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+luat_va_gemini	T11	p-3cd44b24f6ee882483c5	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+luat_va_gemini	T11	p-9c8674f43b6b3544caa2	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+luat_va_gemini	T11	p-ae22a635f8de82ef2e7c	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+luat_va_gemini	T11	p-d7805f7c3f50104165e0	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/cong-phuong-duoc-goi-len-tuyen-nhung-tap-luyen-cung-doi-u22-viet-nam-20210905204248347.htm
+luat_va_gemini	T12	ambiguous:Thanh Bình	DUOC_TRIEU_TAP_VAO	nt-vn	FP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	ambiguous:Việt Anh	DUOC_TRIEU_TAP_VAO	nt-vn	FP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	ambiguous:Đức Huy	DUOC_TRIEU_TAP_VAO	nt-vn	FP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-1d9bd2d282023c44dbad	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-2742077ccf3fa23fb505	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-2d822f5132064a131bcd	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-36ea03fcd105ba8f0770	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-37e4a15cb21c67298de8	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-46ba7e65dc06be62f465	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-4af15369f40ff99d1448	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-6cc5d553049e4d85f5db	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-7b267d04561c4da6583a	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-8fa94f0588c06eae5aba	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-a88d90384b38ccfa901c	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-afc94b4750a3c106f6a7	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-b3e687b88700c948d397	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-c392c257e89dbcddf7e4	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-d23be642790136a81277	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-d5573d93ab48da0a705b	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-e3a497e1e4806ae8df9c	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-f124ef8acf0d16764a44	DUOC_TRIEU_TAP_VAO	nt-vn	FN	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-qh	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-sm	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T12	p-th	DUOC_TRIEU_TAP_VAO	nt-vn	TP	https://tuoitre.vn/tuyen-viet-nam-mat-hong-duy-thay-bang-van-xuan-20220317034105348.htm
+luat_va_gemini	T14	firm-w18044912	TAI_TRO	c-hagl	TP	https://thanhnien.vn/bau-duc-va-bau-hai-tinh-cam-van-tham-thiet-nutifood-tai-tro-clb-hagl-18525040509411619.htm
+luat_va_gemini	T14	new:VÄRNA LIFE - Nutifood	TAI_TRO	c-hagl	FP	https://thanhnien.vn/bau-duc-va-bau-hai-tinh-cam-van-tham-thiet-nutifood-tai-tro-clb-hagl-18525040509411619.htm
+luat_va_gemini	T18	p-3f883fbb7450b6bf5cde	DAN_DAT	c-hp	TP	https://thanhnien.vn/the-cong-viettel-nguoc-dong-ngoan-muc-bang-ban-thang-phut-103-hai-phong-lo-co-hoi-quy-185240530163521874.htm
+luat_va_gemini	T18	p-4cb42d7597047ea07e05	DAN_DAT	c-tc	TP	https://thanhnien.vn/the-cong-viettel-nguoc-dong-ngoan-muc-bang-ban-thang-phut-103-hai-phong-lo-co-hoi-quy-185240530163521874.htm

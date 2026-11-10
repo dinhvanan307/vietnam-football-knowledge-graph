@@ -1,0 +1,66 @@
+{
+  "per_type": {
+    "KY_HOP_DONG_VOI": {
+      "TP": 12,
+      "FP": 1,
+      "FN": 11,
+      "precision": 0.9230769230769231,
+      "recall": 0.5217391304347826,
+      "F1": 0.6666666666666666,
+      "articles_predicted": 5,
+      "assessed_lots": [
+        "N"
+      ],
+      "pass_gate": true
+    },
+    "DUOC_TRIEU_TAP_VAO": {
+      "TP": 41,
+      "FP": 1,
+      "FN": 8,
+      "precision": 0.9761904761904762,
+      "recall": 0.8367346938775511,
+      "F1": 0.9010989010989011,
+      "articles_predicted": 4,
+      "assessed_lots": [
+        "N"
+      ],
+      "pass_gate": true
+    },
+    "KY_LUAT": {
+      "TP": 12,
+      "FP": 0,
+      "FN": 2,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "F1": 0.9230769230769231,
+      "articles_predicted": 6,
+      "assessed_lots": [
+        "N",
+        "R"
+      ],
+      "pass_gate": true
+    },
+    "TAI_TRO": {
+      "TP": 20,
+      "FP": 2,
+      "FN": 7,
+      "precision": 0.9090909090909091,
+      "recall": 0.7407407407407407,
+      "F1": 0.8163265306122449,
+      "articles_predicted": 6,
+      "assessed_lots": [
+        "S"
+      ],
+      "pass_gate": true
+    }
+  },
+  "micro": {
+    "TP": 85,
+    "FP": 4,
+    "FN": 28,
+    "precision": 0.9550561797752809,
+    "recall": 0.7522123893805309,
+    "F1": 0.8415841584158416
+  },
+  "rule": "observed precision > 0.90; >=5 predictions in >=3 articles per relation; exact IDs and event under the adjudication protocol"
+}

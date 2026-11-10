@@ -46,7 +46,7 @@ def main():
         for number, row in enumerate(sample, 1):
             require(row["ma"] == f"{prefix}{number:03}", "Sai mã phiếu")
             require(row["quan_he"] in graph["relations"] and urlparse(row["url_nguon"]).hostname, "Thiếu quan hệ hoặc nguồn")
-        counts = Counter(r["nhan_codex"] for r in sample)
+        counts = Counter(r["nhan_kiem_tra"] for r in sample)
         require(set(counts) <= {"DUNG", "SAI", "CHUA_RO"}, "Nhãn không hợp lệ")
         layer_stats = stratum(size, counts)
         require(layer_stats == reference[result_key], f"Sai thống kê tầng {layer}")

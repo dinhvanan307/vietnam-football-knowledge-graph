@@ -1,0 +1,74 @@
+{
+  "before": {
+    "edges": 0,
+    "graph_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "nodes": 0,
+    "relations": {},
+    "types": 0
+  },
+  "database": "neo4j",
+  "full_property_comparison": true,
+  "import_runs": [
+    {
+      "created_edges": 18261,
+      "created_nodes": 2068,
+      "edges": 18261,
+      "graph_sha256": "c279771cbbfe66aafac803ef173c65f07af37ea4773650678cfae9e346e5c572",
+      "nodes": 2068,
+      "relations": {
+        "CHU_TICH_CUA": 1,
+        "DANG_KY_THI_DAU_CHO": 3814,
+        "DAN_DAT": 86,
+        "DOI_DAU": 2759,
+        "DOI_TRUONG_CUA": 70,
+        "DUOC_CHO_MUON_DEN": 1,
+        "DUOC_TRIEU_TAP_VAO": 232,
+        "GHI_BAN_VAO_LUOI": 4719,
+        "GIA_HAN_VOI": 2,
+        "KY_HOP_DONG_VOI": 39,
+        "KY_LUAT": 36,
+        "NHAN_THE_VANG_KHI_GAP": 5636,
+        "SU_DUNG_SAN_NHA": 1,
+        "TAI_TRO": 36,
+        "THAM_GIA_GIAI": 14,
+        "THANH_LY_VOI": 7,
+        "THI_DAU_CHO": 4,
+        "THI_DAU_TAI_SAN": 804
+      },
+      "run": 1,
+      "types": 18
+    },
+    {
+      "created_edges": 0,
+      "created_nodes": 0,
+      "edges": 18261,
+      "graph_sha256": "c279771cbbfe66aafac803ef173c65f07af37ea4773650678cfae9e346e5c572",
+      "nodes": 2068,
+      "relations": {
+        "CHU_TICH_CUA": 1,
+        "DANG_KY_THI_DAU_CHO": 3814,
+        "DAN_DAT": 86,
+        "DOI_DAU": 2759,
+        "DOI_TRUONG_CUA": 70,
+        "DUOC_CHO_MUON_DEN": 1,
+        "DUOC_TRIEU_TAP_VAO": 232,
+        "GHI_BAN_VAO_LUOI": 4719,
+        "GIA_HAN_VOI": 2,
+        "KY_HOP_DONG_VOI": 39,
+        "KY_LUAT": 36,
+        "NHAN_THE_VANG_KHI_GAP": 5636,
+        "SU_DUNG_SAN_NHA": 1,
+        "TAI_TRO": 36,
+        "THAM_GIA_GIAI": 14,
+        "THANH_LY_VOI": 7,
+        "THI_DAU_CHO": 4,
+        "THI_DAU_TAI_SAN": 804
+      },
+      "run": 2,
+      "types": 18
+    }
+  ],
+  "neo4j": "2026.10.1",
+  "project": "d22_press_a7",
+  "uri": "bolt://127.0.0.1:7696"
+}

@@ -4,13 +4,14 @@ from collections import defaultdict, Counter
 from lxml import html
 from mwparserfromhell import parse
 
+from bongda.evaluate.labels import normalize_label
 from bongda.paths import WORK, evaluation_dir
 
 OUT = evaluation_dir("a2")
 ROOT = WORK / "a2_final"
 CONTROL_SEED=2026110802
 def tsv(p,sep="\t"):
-    with p.open(encoding="utf-8",newline="") as f:return list(csv.DictReader(f,delimiter=sep))
+    with p.open(encoding="utf-8",newline="") as f:return [normalize_label(r) for r in csv.DictReader(f,delimiter=sep)]
 def lines(p):return [json.loads(s) for s in p.read_text().splitlines() if s]
 def digest(b):return hashlib.sha256(b).hexdigest()
 def put_tsv(p,rows):

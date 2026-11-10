@@ -62,6 +62,19 @@ def date_vi(raw,season):
     return result.isoformat() if 2012<=y<=2025 else None
 
 BOX_NAMES={"football box","footballbox","football box collapsible","footballbox collapsible","hộp thông tin trận đấu bóng đá","hộp thông tin trận đấu bóng đá có thể cuộn lại"}
+
+# Các ký hiệu chức danh được ghi ngay trước tên hoặc trong nhãn liên kết.
+STAFF_TITLE = re.compile(
+    r"\b(?:CB[.\s]*(?:PT[.\s]*KT|KT|CM)|cán\s+bộ\s+"
+    r"(?:phân\s+tích\s+k[ỹĩ]\s+thuật|k[ỹĩ]\s+thuật|chuyên\s+môn))\b",
+    re.IGNORECASE,
+)
+
+
+def has_staff_title(text):
+    return bool(STAFF_TITLE.search(unicodedata.normalize("NFC", text)))
+
+
 def extract(p,text):
     # Đối chiếu nguyên văn từng template để giữ offset Unicode đúng bản đã nhận.
     title=p["title"];out=[];cursors={}
@@ -89,7 +102,7 @@ def extract(p,text):
                 m=re.fullmatch(r"\s*[*:]?\s*(\[\[[^]\n]+\]\]|[\wÀ-ỹ'’ .-]+?)\s*(?:\(\d{1,3}\)\s*)?((?:\{\{[^{}]+\}\}\s*)+)\s*",line)
                 if not m:continue
                 actor=item(m[1]);markers=mw.parse(m[2]).filter_templates()
-                if not actor:continue
+                if not actor or has_staff_title(actor["name"]) or has_staff_title(actor["key"]):continue
                 for marker in markers:
                     k=str(marker.name).strip().lower()
                     k={"bàn thắng":"goal","thẻ vàng":"yel"}.get(k,k)

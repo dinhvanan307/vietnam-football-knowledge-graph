@@ -7,7 +7,7 @@ from bongda.core.ban_giao import enc,sha,table,jlines,verify
 from bongda.extract.gom_su_kien import group_articles
 from bongda.collect.doi_chieu_wiki import key
 from bongda.core.trich_quan_he import write_csv
-from bongda.extract.doc_bien_ban import read_pages
+from bongda.extract.doc_bien_ban import has_staff_title, read_pages
 PILOT=Path("work/pilot_01")
 def compact(v):return " ".join(unicodedata.normalize("NFC",v).split())
 def norm(v):return key(compact(v)).replace("–","-").replace("—","-")
@@ -52,6 +52,7 @@ class Resolver:
         self.registry[i]=dict(entity_id=i,wiki_id=record["id"],wiki_title=record["title"],basis="club_article")
         return i
     def observe(self,v):
+        if has_staff_title(v["name"]) or has_staff_title(v["key"]):return
         page=self.lookup.get(v["key"],{})
         if page.get("id") and not page.get("dab") and self.bios.get(str(page["id"]),{}).get("football"):
             for a in (v["name"],v["key"],re.sub(r"\s*\([^()]+\)$","",v["key"])):
@@ -76,6 +77,7 @@ class Resolver:
         return eid
     def person(self,v):
         n=compact(v["key"]);display=compact(v["name"])
+        if has_staff_title(n) or has_staff_title(display):return None
         if v["kind"]=="template" or not n or len(n)>90 or not any(c.isalpha() for c in n):return None
         if n.count("(")!=n.count(")") or re.search(r"(?i)^clb\b|huấn luyện viên|trọng tài|câu lạc bộ|thể loại:|^đội |^[*\d]|file:|tập tin:|^tệp:|nhân viên|trợ l[íý]|bác s[ĩỹ]|quan chức|<|\?|=",n):return None
         page=self.lookup.get(n,{})

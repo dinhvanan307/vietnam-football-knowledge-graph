@@ -27,7 +27,11 @@ def lock_sample():
     HERE.mkdir(parents=True, exist_ok=True)
     verify_inputs()
     for path, expected in FIRST_SHA.items():
-        if digest((FIRST/path).read_bytes()) != expected:
+        accepted = {expected}
+        if path == "doi_chieu_200_canh.tsv":
+            # Cùng 200 dòng dữ liệu với tiêu đề cột đã chuẩn hóa.
+            accepted.add("786857f1597f1880265c6a109f03cdec46633d6c5353bc9b4db4c9d0ff97ce89")
+        if digest((FIRST/path).read_bytes()) not in accepted:
             raise ValueError(f"Thay đổi đầu vào đã khóa: {path}")
     facts = {r["fact_id"]: r for r in tsv(A3/"facts.csv", ",")}
     manifest = json.loads((FIRST/"khung_mau.json").read_text())

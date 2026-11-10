@@ -26,20 +26,20 @@ def main():
     docs = set()
     for packet, fid, label in zip(packets, sample, labels, strict=True):
         assert packet["fact_id"] == fid == label["fact_id"] and packet["no"] == label["ma"]
-        assert label["nhan_codex"] in {"DUNG", "SAI", "CHUA_RO"} and label["ly_do"].strip()
+        assert label["nhan_kiem_tra"] in {"DUNG", "SAI", "CHUA_RO"} and label["ly_do"].strip()
         ev = packet["support"]
         proofs.update(e["evidence_id"] for e in ev)
         docs.update(e["article_id"] for e in ev)
         detail.append(dict(ma=packet["no"], fact_id=fid, chu_the=packet["src"], src_id=packet["src_id"],
                            quan_he=packet["relation_type"], doi_tuong=packet["dst"], dst_id=packet["dst_id"],
                            thoi_gian=packet["period"], khoa_su_kien=packet["event_key"],
-                           nhan_codex=label["nhan_codex"], ly_do=label["ly_do"],
+                           nhan_kiem_tra=label["nhan_kiem_tra"], ly_do=label["ly_do"],
                            url_nguon=ev[0]["url"], ngu_canh=ev[0]["context"], bang_chung=ev[0]["quote"],
                            so_bang_chung=len(ev), cac_url_nguon=" ".join(sorted({e["url"] for e in ev})),
                            nguon_bo_sung=label["nguon_bo_sung"]))
     put_tsv(HERE/"doi_chieu_200_canh.tsv",detail)
-    put_tsv(HERE/"canh_sai_va_chua_ro.tsv",[r for r in detail if r["nhan_codex"]!="DUNG"])
-    counts = Counter(r["nhan_codex"] for r in detail)
+    put_tsv(HERE/"canh_sai_va_chua_ro.tsv",[r for r in detail if r["nhan_kiem_tra"]!="DUNG"])
+    counts = Counter(r["nhan_kiem_tra"] for r in detail)
     N, M = frame["N"], frame["eligible"]
     n, k = len(sample), len(sample)-counts["DUNG"]
     low = srs_lower_bound(M,n,k)
@@ -51,8 +51,8 @@ def main():
     null_errors = (M+9)//10
     rels = {}
     for row in detail:
-        rels.setdefault(row["quan_he"], Counter())[row["nhan_codex"]] += 1
-    results = dict(evaluator="Codex", human_double_review=False, population=N, eligible=M, excluded=N-M,
+        rels.setdefault(row["quan_he"], Counter())[row["nhan_kiem_tra"]] += 1
+    results = dict(review_method="Đối chiếu nguồn", human_double_review=False, population=N, eligible=M, excluded=N-M,
                    sample_size=n, labels=counts, sample_precision=counts["DUNG"]/n,
                    exact_95_lower_eligible=low, minimum_correct_eligible_95=lower_true,
                    upper_errors_eligible_95=upper_errors, one_sided_p_at_90=hyper_tail(M,null_errors,n,k)/denom,

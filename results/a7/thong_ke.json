@@ -1,0 +1,62 @@
+{
+  "added_edges": 144,
+  "added_nodes": 36,
+  "added_source_articles": 73,
+  "articles": 464,
+  "edges": 18261,
+  "gate_sha256": "07919073388c4fc5d19360dc7aef107eaef51750d2824b2e59c649e32646668c",
+  "import_actions": {
+    "hold": {
+      "DUOC_TRIEU_TAP_VAO": 1,
+      "KY_HOP_DONG_VOI": 3,
+      "KY_LUAT": 1,
+      "TAI_TRO": 1
+    },
+    "new": {
+      "DUOC_TRIEU_TAP_VAO": 50,
+      "KY_HOP_DONG_VOI": 33,
+      "KY_LUAT": 31,
+      "TAI_TRO": 30
+    },
+    "support_existing": {
+      "DUOC_TRIEU_TAP_VAO": 22,
+      "KY_HOP_DONG_VOI": 4,
+      "KY_LUAT": 2,
+      "TAI_TRO": 3
+    },
+    "support_new": {
+      "DUOC_TRIEU_TAP_VAO": 2,
+      "KY_HOP_DONG_VOI": 3,
+      "KY_LUAT": 5,
+      "TAI_TRO": 3
+    }
+  },
+  "nodes": 2068,
+  "parent": "A6.3",
+  "parent_facts_sha256": "befe1e79a5f52e75aafd2860e51167712d65d42a15f8608b12e2d4821d90e099",
+  "primary_sources": {
+    "press": 371,
+    "wiki": 17890
+  },
+  "types": {
+    "CHU_TICH_CUA": 1,
+    "DANG_KY_THI_DAU_CHO": 3814,
+    "DAN_DAT": 86,
+    "DOI_DAU": 2759,
+    "DOI_TRUONG_CUA": 70,
+    "DUOC_CHO_MUON_DEN": 1,
+    "DUOC_TRIEU_TAP_VAO": 232,
+    "GHI_BAN_VAO_LUOI": 4719,
+    "GIA_HAN_VOI": 2,
+    "KY_HOP_DONG_VOI": 39,
+    "KY_LUAT": 36,
+    "NHAN_THE_VANG_KHI_GAP": 5636,
+    "SU_DUNG_SAN_NHA": 1,
+    "TAI_TRO": 36,
+    "THAM_GIA_GIAI": 14,
+    "THANH_LY_VOI": 7,
+    "THI_DAU_CHO": 4,
+    "THI_DAU_TAI_SAN": 804
+  },
+  "version": "A7"
+}

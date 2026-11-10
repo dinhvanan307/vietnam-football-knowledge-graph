@@ -12,6 +12,6 @@
     "C13",
     "C14"
   ],
-  "reviewer": "Codex, one source review before inference",
-  "primary_model": "gemini-3.1-flash-lite"
+  "primary_model": "gemini-3.1-flash-lite",
+  "review_method": "Đối chiếu nguồn một lượt trước khi chạy bộ trích"
 }

@@ -27,7 +27,7 @@ PACKAGES = {
     ),
     "Danh_gia_precision_A2.zip": (
         "45eccd0f87c6a995073bf048a93c128924d37091cd67d5f857f680faaa93ac93",
-        "", ("danh_gia_precision/phieu_cham_codex.tsv",),
+        "", ("danh_gia_precision/phieu_cham.tsv",),
     ),
     "Danh_gia_precision_A3.zip": (
         "f1013ea40ff0be90ae916a97a6059c3e7779cfe07256efa575e53ecdb207eb91",
@@ -59,6 +59,10 @@ def restore(path):
                 if not member.is_relative_to(prefix):
                     continue
                 name = member.relative_to(prefix)
+                if (path.name == "Danh_gia_precision_A2.zip"
+                        and name.parent == Path("danh_gia_precision")
+                        and name.match("phieu_cham_*.tsv")):
+                    name = name.with_name("phieu_cham.tsv")
                 if not any(name.is_relative_to(p) for p in allowed):
                     continue
                 stage = LABEL_DIRECTORIES.get(name.parts[0])

@@ -1,4 +1,5 @@
 """Tổng hợp nhãn đã đọc từ nguồn; khoảng một phía dùng phân phối siêu bội hữu hạn."""
+from bongda.evaluate.labels import review_sheet
 import json, math
 from collections import Counter,defaultdict
 from bongda.evaluate.a2.chuan_bi_doi_chieu import ROOT, OUT, tsv, lines, digest, select, put_tsv, CONTROL_SEED
@@ -22,7 +23,7 @@ def main():
     for n in ["mau_ra_soat.tsv","facts.csv","entities.csv","evidence.jsonl","articles.jsonl"]:
         if digest((ROOT/n).read_bytes())!=expected[n]:raise ValueError(n)
     packet=lines(OUT/"hoso_doi_chieu.jsonl")
-    labels={r["ma"]:r for r in tsv(OUT/"phieu_cham_codex.tsv")}
+    labels={r["ma"]:r for r in tsv(review_sheet(OUT))}
     assert len(labels)==len(packet)==len(sample)+len(control)
     assert [r["fact_id"] for r in packet]==[r["fact_id"] for r in sample]+control
     assert all(e["raw_check"] for r in packet for e in r["support"])
@@ -32,9 +33,9 @@ def main():
     exports={"S":[],"C":[]};unique={};eids=set()
     for row in packet:
         label=labels[row["no"]];fid=row["fact_id"];ev=row["support"]
-        assert fid==label["fact_id"] and label["nhan_codex"] in {"DUNG","SAI","CHUA_RO"} and label["ly_do"]
-        assert unique.setdefault(fid,label["nhan_codex"])==label["nhan_codex"]
-        depth=row["no"][0];groups[depth,row["relation_type"]].append(label["nhan_codex"])
+        assert fid==label["fact_id"] and label["nhan_kiem_tra"] in {"DUNG","SAI","CHUA_RO"} and label["ly_do"]
+        assert unique.setdefault(fid,label["nhan_kiem_tra"])==label["nhan_kiem_tra"]
+        depth=row["no"][0];groups[depth,row["relation_type"]].append(label["nhan_kiem_tra"])
         primary=ev[0]
         if depth=="S":
             record=dict(sample[int(row["no"][1:])-1])
@@ -42,13 +43,13 @@ def main():
         else:
             record=dict(fact_id=fid,quan_he=row["relation_type"],nguon=row["src"],dich=row["dst"],thoi_gian=row["period"],
                         url=primary["url"],ngu_canh=primary["context"],bang_chung=primary["quote"],nhan_A="",nhan_B="")
-        record.update(ma=label["ma"],phuong_phap=row["method"],nhan_codex=label["nhan_codex"],loai_loi=label["loai_loi"],ly_do=label["ly_do"],
+        record.update(ma=label["ma"],phuong_phap=row["method"],nhan_kiem_tra=label["nhan_kiem_tra"],loai_loi=label["loai_loi"],ly_do=label["ly_do"],
                       so_bang_chung=len(ev),nguon_bo_sung=label["nguon_bo_sung"])
         exports[depth].append(record)
         eids.update((fid,e["article_id"],e["start"],e["end"]) for e in ev)
     put_tsv(OUT/"mau_82_da_cham.tsv",exports["S"])
     put_tsv(OUT/"kiem_chung_100_da_cham.tsv",exports["C"])
-    put_tsv(OUT/"cac_canh_can_sua.tsv",[r for d in "SC" for r in exports[d] if r["nhan_codex"]!="DUNG"])
+    put_tsv(OUT/"cac_canh_can_sua.tsv",[r for d in "SC" for r in exports[d] if r["nhan_kiem_tra"]!="DUNG"])
     results=[];weighted_terms=[]
     for rel,N_h in sorted(types.items()):
         s,c=groups["S",rel],groups["C",rel];n=len(s);ok=s.count("DUNG")
@@ -58,7 +59,7 @@ def main():
                             precision_phan_tang=ok/n,n_kiem_chung=len(c),dung_kiem_chung=c.count("DUNG"),sai_kiem_chung=c.count("SAI"),chua_ro_kiem_chung=c.count("CHUA_RO")))
     wp=math.fsum(weighted_terms)/N
     put_tsv(OUT/"theo_loai_quan_he.tsv",results)
-    counts={d:Counter(r["nhan_codex"] for r in xs) for d,xs in exports.items()}
+    counts={d:Counter(r["nhan_kiem_tra"] for r in xs) for d,xs in exports.items()}
     n=len(control);k=n-counts["C"]["DUNG"];null_errors=(N+9)//10
     data=dict(population=N,snapshot_sha256=expected["facts.csv"],sample_sha256=expected["mau_ra_soat.tsv"],
               fixed_sample=dict(n=len(sample),counts=counts["S"],weighted_precision=wp),
@@ -68,7 +69,7 @@ def main():
               overlap=len(packet)-len(unique),unique_facts_read=len(unique),distinct_support_spans=len(eids),
               methods_population=methods,methods_in_fixed_sample=Counter(r["phuong_phap"] for r in exports["S"]),
               human_labels_A_B=sum(bool(r["nhan_A"] or r["nhan_B"]) for r in sample),
-              evaluator="Codex; đánh giá ngữ nghĩa so với nguồn; chưa có hai người chấm độc lập",
+              review_method="Đối chiếu nguồn", human_double_review=False,
               unresolved_rule="CHUA_RO được tính vào mẫu số và không được tính đúng.")
     (OUT/"ket_qua.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps(data,ensure_ascii=False))

@@ -56,21 +56,14 @@ def compare(session, nodes, facts, batches):
         raise ValueError("Thiếu cạnh.")
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("snapshot", type=Path)
-    root = parser.parse_args().snapshot
-    if not (root / "audit_a3.json").is_file() or root.resolve() == Path("work/a2_final").resolve():
-        raise ValueError("Chỉ nhập snapshot A3.")
+def import_snapshot(root, *, uri, env_file, path, project, report_dir):
     verify(root, False, True)
     nodes = idx(table(root / "entities.csv"), "entity_id")
     facts = idx(table(root / "facts.csv"), "fact_id")
     batch = payload(root, facts)
-    pw = dict(s.split("=", 1) for s in Path(".env").read_text().splitlines() if "=" in s)["NEO4J_PASSWORD"]
-    uri = "bolt://127.0.0.1:7689"
-    path = Path("work/a3_import")
+    pw = dict(s.split("=", 1) for s in env_file.read_text().splitlines() if "=" in s)["NEO4J_PASSWORD"]
     path.mkdir(exist_ok=True)
-    commands = queries(Path("cypher/02_import_real.cypher"))
+    commands = queries(Path(__file__).resolve().parents[2] / "cypher/02_import_real.cypher")
     with GraphDatabase.driver(uri, auth=("neo4j", pw)) as driver, driver.session(database="neo4j") as db:
         driver.verify_connectivity()
         before = fingerprint(db)
@@ -104,14 +97,24 @@ def main():
         if results[0]["graph_sha256"] != results[1]["graph_sha256"] or any((results[1]["created_nodes"], results[1]["created_edges"])):
             raise ValueError("Lần nhập thứ hai thay đổi graph.")
         version = db.run("CALL dbms.components() YIELD name,versions WHERE name='Neo4j Kernel' RETURN versions[0] AS v").single()["v"]
-        result = dict(uri=uri, database="neo4j", project="vietnam_football_a3", neo4j=version, before=before, import_runs=results,
+        result = dict(uri=uri, database="neo4j", project=project, neo4j=version, before=before, import_runs=results,
                       full_property_comparison=True)
-        output = root / "neo4j_check.json"
+        output = report_dir / "neo4j_check.json"
         # Bảo toàn biên bản lượt nhập đầu tiên từ DB rỗng khi người dùng chạy lại.
         if output.exists():
-            output = root / "neo4j_recheck.json"
+            output = report_dir / "neo4j_recheck.json"
         output.write_text(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2) + "\n")
         print(json.dumps(results, ensure_ascii=False))
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("snapshot", type=Path)
+    root = parser.parse_args().snapshot
+    if not (root / "audit_a3.json").is_file() or root.resolve() == Path("work/a2_final").resolve():
+        raise ValueError("Chỉ nhập snapshot A3.")
+    import_snapshot(root, uri="bolt://127.0.0.1:7689", env_file=Path(".env"),
+                    path=Path("work/a3_import"), project="vietnam_football_a3", report_dir=root)
 
 
 if __name__ == "__main__":

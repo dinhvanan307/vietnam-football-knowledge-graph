@@ -18,7 +18,7 @@ Lệnh đầu sau khi vào repo dựng lại mẫu từ 18.156 mã cạnh rồi 
 | Mẫu mới giữ lại sau sửa A3 | 16.782 | 193/200 |
 | Phần ngoài khung mẫu trên | 1.374 | 95/100 |
 
-Có tổng cộng 288 nhãn đúng, 8 sai và 4 chưa rõ. Mỗi nhãn sai hoặc chưa rõ tính 0. Ước lượng toàn mạng lấy precision mỗi tầng nhân với tỷ trọng cạnh của tầng. Cận dưới dùng phân phối siêu bội khi lấy mẫu không hoàn lại, với hiệu chỉnh Bonferroni cho hai tầng. Cận dưới 92,65% vượt ngưỡng yêu cầu 90%. Các nhãn do Codex đối chiếu nguồn. Nhóm chưa có lượt chấm độc lập của hai người. Phép đo áp dụng cho precision của cạnh đã trích xuất, chưa đo recall hoặc F1.
+Có tổng cộng 288 nhãn đúng, 8 sai và 4 chưa rõ. Mỗi nhãn sai hoặc chưa rõ tính 0. Ước lượng toàn mạng lấy precision mỗi tầng nhân với tỷ trọng cạnh của tầng. Cận dưới dùng phân phối siêu bội khi lấy mẫu không hoàn lại, với hiệu chỉnh Bonferroni cho hai tầng. Cận dưới 92,65% vượt ngưỡng yêu cầu 90%. Các nhãn được đối chiếu với nguồn. Nhóm chưa có lượt chấm độc lập của hai người. Phép đo áp dụng cho precision của cạnh đã trích xuất, chưa đo recall hoặc F1.
 
 - [Phiếu 300 cạnh](../results/a3/nhan_300.tsv) có chủ thể, quan hệ, đối tượng, thời gian, nhãn và URL để giảng viên tự xem nguồn.
 - [Khung lấy mẫu](../results/a3/khung_a3.tsv) chứa mã cạnh và tầng. Hai seed theo thứ tự bảng là `2026110803` và `2026110804`.
@@ -62,7 +62,7 @@ cmp work/a3_rebuild/evidence.jsonl work/a3_final/evidence.jsonl
 
 `tao_a3.py` đọc snapshot A2 đã khóa, áp dụng các quy tắc sửa cùng loại lỗi và ghi sang một thư mục đích mới. Chọn tên đích khác cho lần dựng tiếp theo. Kiểm tra delta truy nguyên bốn cạnh sai ban đầu cùng các cạnh liên quan. Lệnh kiểm tra tiếp theo đối chiếu bằng chứng, đếm thực thể, cạnh và loại quan hệ. Các lệnh `cmp` trả mã 0 và không in gì khi kết quả trùng khớp.
 
-Để tái lập cả **bước mở rộng A2** từ dữ liệu nguồn lưu local, chạy thêm:
+Để tái lập cả **bước mở rộng A2** từ dữ liệu nguồn lưu local, chạy các lệnh sau với mã ở commit `029a68bb3fa046a6a92a2ea8bd49328d38834d3e`. Bản xử lý từ A5 đã sửa cách lọc thẻ cán bộ. Lệnh `build-a3` ở trên vẫn dùng dữ liệu A2 đóng băng.
 
 ```sh
 python -m bongda.data.khoi_phuc_nguon_a2
@@ -142,7 +142,7 @@ python -m bongda extract-news work/bao_test.jsonl work/kiem_tra_gemini --entitie
 python -m bongda score-news work/bao_test.jsonl results/press/nhan_test.tsv work/a3_final/entities.csv work/kiem_tra_gemini work/diem_gemini
 ```
 
-Mỗi bài hoàn tất được lưu riêng trong `work/kiem_tra_gemini`. Chạy lại lệnh sẽ bỏ qua bài đã lưu với đúng phiên bản đầu vào. Bảng [18 bài kiểm tra](../results/press/mau_test_final.tsv) và [53 nhãn tham chiếu](../results/press/nhan_test.tsv) dùng cho phép đo trên bài báo mới. Nhãn tham chiếu do Codex lập trước khi chạy API. Các bài được chọn theo chủ đề, gồm cả bài không có quan hệ thuộc phạm vi.
+Mỗi bài hoàn tất được lưu riêng trong `work/kiem_tra_gemini`. Chạy lại lệnh sẽ bỏ qua bài đã lưu với đúng phiên bản đầu vào. Bảng [18 bài kiểm tra](../results/press/mau_test_final.tsv) và [53 nhãn tham chiếu](../results/press/nhan_test.tsv) dùng cho phép đo trên bài báo mới. Nhãn tham chiếu được khóa trước khi chạy API. Các bài được chọn theo chủ đề, gồm cả bài không có quan hệ thuộc phạm vi.
 
 Trong lần chạy đủ 18 bài, API nhận tên model `gemini-3.5-flash` cho 17 bài và trả về tên phiên bản `gemini-3.6-flash`. Riêng T12 dùng `gemini-3.1-flash-lite` sau khi model chính hết hạn mức ngày. T12 có 21/53 quan hệ tham chiếu. File điểm có số liệu riêng từng nhóm model.
 

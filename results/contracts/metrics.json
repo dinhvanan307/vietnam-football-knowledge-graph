@@ -1,0 +1,183 @@
+{
+  "scored_articles": 60,
+  "reader_articles": 44,
+  "reader_micro": {
+    "TP": 18,
+    "FP": 1,
+    "FN": 2,
+    "precision": 0.9473684210526315,
+    "recall": 0.9,
+    "F1": 0.9230769230769231,
+    "precision_wilson95": [
+      0.7536126883310121,
+      0.9906480059376996
+    ],
+    "recall_wilson95": [
+      0.6989663547715128,
+      0.9721335187862318
+    ]
+  },
+  "strict_reader_posthoc": {
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "F1": 1.0,
+    "precision_wilson95": [
+      0.34238022750665326,
+      1
+    ],
+    "recall_wilson95": [
+      0.34238022750665326,
+      1
+    ]
+  },
+  "evidence_counts": {
+    "XAC_NHAN_TAN_BINH_HOAC_GIA_NHAP": 22,
+    "NEU_RO_DA_KY": 4,
+    "THOA_THUAN_DA_CHOT": 2,
+    "CLB_CONG_BO_HOP_DONG": 1
+  },
+  "batches": {
+    "lo_1": {
+      "luat_cu": {
+        "articles": 20,
+        "articles_predicted": 3,
+        "articles_with_gold": 5,
+        "TP": 5,
+        "FP": 1,
+        "FN": 3,
+        "precision": 0.8333333333333334,
+        "recall": 0.625,
+        "F1": 0.7142857142857143,
+        "precision_wilson95": [
+          0.4364971778135299,
+          0.9699466302516933
+        ],
+        "recall_wilson95": [
+          0.30574239460262737,
+          0.8631557141764026
+        ]
+      },
+      "K1_doc_tung_cau": {
+        "articles": 20,
+        "articles_predicted": 4,
+        "articles_with_gold": 5,
+        "TP": 7,
+        "FP": 0,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.875,
+        "F1": 0.9333333333333333,
+        "precision_wilson95": [
+          0.6456695649333128,
+          1
+        ],
+        "recall_wilson95": [
+          0.5291118177871467,
+          0.9775825085499433
+        ]
+      }
+    },
+    "lo_2": {
+      "cu": {
+        "articles": 16,
+        "articles_predicted": 4,
+        "articles_with_gold": 6,
+        "TP": 1,
+        "FP": 4,
+        "FN": 8,
+        "precision": 0.2,
+        "recall": 0.1111111111111111,
+        "F1": 0.14285714285714285,
+        "precision_wilson95": [
+          0.03622410863243027,
+          0.6244653702374745
+        ],
+        "recall_wilson95": [
+          0.01989088763854488,
+          0.43499970557665585
+        ]
+      },
+      "moi": {
+        "articles": 16,
+        "articles_predicted": 2,
+        "articles_with_gold": 6,
+        "TP": 1,
+        "FP": 1,
+        "FN": 8,
+        "precision": 0.5,
+        "recall": 0.1111111111111111,
+        "F1": 0.18181818181818182,
+        "precision_wilson95": [
+          0.09453120573423075,
+          0.9054687942657692
+        ],
+        "recall_wilson95": [
+          0.01989088763854488,
+          0.43499970557665585
+        ]
+      }
+    },
+    "lo_3": {
+      "cu": {
+        "articles": 24,
+        "articles_predicted": 6,
+        "articles_with_gold": 8,
+        "TP": 3,
+        "FP": 4,
+        "FN": 9,
+        "precision": 0.42857142857142855,
+        "recall": 0.25,
+        "F1": 0.3157894736842105,
+        "precision_wilson95": [
+          0.15821985525146978,
+          0.7495416354723428
+        ],
+        "recall_wilson95": [
+          0.08894166839405475,
+          0.5323053349335656
+        ]
+      },
+      "moi": {
+        "articles": 24,
+        "articles_predicted": 6,
+        "articles_with_gold": 8,
+        "TP": 3,
+        "FP": 4,
+        "FN": 9,
+        "precision": 0.42857142857142855,
+        "recall": 0.25,
+        "F1": 0.3157894736842105,
+        "precision_wilson95": [
+          0.15821985525146978,
+          0.7495416354723428
+        ],
+        "recall_wilson95": [
+          0.08894166839405475,
+          0.5323053349335656
+        ]
+      },
+      "K1_doc_tung_cau": {
+        "articles": 24,
+        "articles_predicted": 8,
+        "articles_with_gold": 8,
+        "TP": 11,
+        "FP": 1,
+        "FN": 1,
+        "precision": 0.9166666666666666,
+        "recall": 0.9166666666666666,
+        "F1": 0.9166666666666666,
+        "precision_wilson95": [
+          0.6461200888588832,
+          0.9851349055950828
+        ],
+        "recall_wilson95": [
+          0.6461200888588832,
+          0.9851349055950828
+        ]
+      }
+    }
+  }
+}

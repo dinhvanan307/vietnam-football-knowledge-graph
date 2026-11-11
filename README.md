@@ -6,6 +6,12 @@
 
 **[Chạy local, mở bản đồ và kiểm tra A9.1](docs/bao-chi-a91.md)** · [Kết quả kiểm tra](results/a91/) · [Truy vấn Neo4j](cypher/phan_tich_bao_chi.cypher). Trên lô thử mới, mô-đun NLP nối trận tìm đúng 13/25 trận, so với 7/25 ở luật cũ. Đây là phép đo riêng.
 
+## NLP ký hợp đồng và chuyển đến CLB
+
+Trên lô cuối 24 bài chưa dùng, lượt đọc từng ứng viên đạt 11 đúng, 1 sai, 1 bỏ sót (precision, recall và F1 đều 91,67%). Luật chạy tự động trên cùng bài đạt 42,86% precision, 25,00% recall và 31,58% F1. Gộp hai lô có lượt đọc, 18/19 dự đoán đúng và tìm thấy 18/20 thương vụ. Trong 44 bài đó chỉ có hai trường hợp nêu rõ ký hoặc công bố hợp đồng. [Mã, kết quả và cách kiểm tra](results/contracts/)
+
+Có thể kiểm tra điểm bằng `python3.13 -m bongda.evaluate.verify_contracts`. Để tính lại chỉ số cấu trúc của A10, cài `networkx==3.5`, giải nén gói nộp và chạy `python3.13 -m bongda.press_final.network_metrics THU_MUC_A10 chi_so.json`. [Các chỉ số theo lớp](results/a10/chi_so_mang.json)
+
 ## Phiên bản lịch sử — không dùng làm số liệu bản nộp
 
 [A8: bản chỉ báo quy mô nhỏ](docs/bao-chi.md). Nội dung sau mô tả bản A7 kết hợp hai loại nguồn và được giữ để tái lập kết quả cũ.

@@ -1,0 +1,339 @@
+{
+  "version": "A10",
+  "networkx": "3.5",
+  "input_sha256": {
+    "entities.csv": "e276a05ae2dc5f57bb0ef6d54a02cd830b4be9698dfa435bf789c9e30a150682",
+    "facts.csv": "273737fd221baffcdced3c515c5439c65a83734283db15336b6bd7787e092e2a"
+  },
+  "full": {
+    "nodes": 3585,
+    "edge_observations": 12781,
+    "distinct_pairs": 11906,
+    "mean_degree": 6.642119944211994,
+    "median_degree": 3,
+    "degree_one_count": 463,
+    "density": 0.0018532700737198646,
+    "components": 1,
+    "largest_component": 3585,
+    "largest_component_share": 1.0,
+    "mean_distance_largest_component": 2.9581580618649133,
+    "diameter_largest_component": 6,
+    "mean_clustering": 0.29651180603653376,
+    "transitivity": 0.0060214346821312855,
+    "top_degree": [
+      {
+        "id": "g-vl1",
+        "name": "V.League 1",
+        "value": 1857
+      },
+      {
+        "id": "c-hagl",
+        "name": "Hoàng Anh Gia Lai",
+        "value": 424
+      },
+      {
+        "id": "c-hp",
+        "name": "CLB Hải Phòng",
+        "value": 400
+      },
+      {
+        "id": "c-dn",
+        "name": "CLB Đà Nẵng",
+        "value": 399
+      },
+      {
+        "id": "c-slna",
+        "name": "Sông Lam Nghệ An",
+        "value": 398
+      },
+      {
+        "id": "c-bd",
+        "name": "CLB Bình Dương",
+        "value": 397
+      }
+    ]
+  },
+  "xa_hoi": {
+    "nodes": 1103,
+    "edge_observations": 2654,
+    "distinct_pairs": 1784,
+    "mean_degree": 3.2348141432456936,
+    "median_degree": 1,
+    "degree_one_count": 568,
+    "density": 0.0029354030337982702,
+    "components": 1,
+    "largest_component": 1103,
+    "largest_component_share": 1.0,
+    "mean_distance_largest_component": 3.9645875873915886,
+    "diameter_largest_component": 7,
+    "mean_clustering": 0.0,
+    "transitivity": 0,
+    "top_degree": [
+      {
+        "id": "nt-vn",
+        "name": "Đội tuyển bóng đá nam Việt Nam",
+        "value": 122
+      },
+      {
+        "id": "c-hagl",
+        "name": "Hoàng Anh Gia Lai",
+        "value": 106
+      },
+      {
+        "id": "c-hcm",
+        "name": "CLB TP.HCM",
+        "value": 105
+      },
+      {
+        "id": "c-dn",
+        "name": "CLB Đà Nẵng",
+        "value": 91
+      },
+      {
+        "id": "c-slna",
+        "name": "Sông Lam Nghệ An",
+        "value": 84
+      },
+      {
+        "id": "c-hn",
+        "name": "CLB Hà Nội",
+        "value": 83
+      }
+    ],
+    "top_betweenness": [
+      {
+        "id": "nt-vn",
+        "name": "Đội tuyển bóng đá nam Việt Nam",
+        "value": 0.1511234013082398
+      },
+      {
+        "id": "c-hagl",
+        "name": "Hoàng Anh Gia Lai",
+        "value": 0.1323940142377353
+      },
+      {
+        "id": "c-hcm",
+        "name": "CLB TP.HCM",
+        "value": 0.1318128415574783
+      },
+      {
+        "id": "c-dn",
+        "name": "CLB Đà Nẵng",
+        "value": 0.11782254636652248
+      },
+      {
+        "id": "c-slna",
+        "name": "Sông Lam Nghệ An",
+        "value": 0.10419092562903719
+      },
+      {
+        "id": "c-ht",
+        "name": "CLB Hồng Lĩnh Hà Tĩnh",
+        "value": 0.09485935270553568
+      }
+    ]
+  },
+  "boi_canh": {
+    "nodes": 2976,
+    "edge_observations": 10127,
+    "distinct_pairs": 10122,
+    "mean_degree": 6.80241935483871,
+    "median_degree": 3.0,
+    "degree_one_count": 197,
+    "density": 0.002286527514231499,
+    "components": 1,
+    "largest_component": 2976,
+    "largest_component_share": 1.0,
+    "mean_distance_largest_component": 2.8164100478901237,
+    "diameter_largest_component": 5,
+    "mean_clustering": 0.3074712304071667,
+    "transitivity": 0.0038004575308095345,
+    "top_degree": [
+      {
+        "id": "g-vl1",
+        "name": "V.League 1",
+        "value": 1857
+      },
+      {
+        "id": "g9-vl2",
+        "name": "Giải hạng Nhất quốc gia",
+        "value": 325
+      },
+      {
+        "id": "c-bd",
+        "name": "CLB Bình Dương",
+        "value": 319
+      },
+      {
+        "id": "c-hp",
+        "name": "CLB Hải Phòng",
+        "value": 319
+      },
+      {
+        "id": "c-hagl",
+        "name": "Hoàng Anh Gia Lai",
+        "value": 318
+      },
+      {
+        "id": "c-slna",
+        "name": "Sông Lam Nghệ An",
+        "value": 314
+      }
+    ]
+  },
+  "dong_doi": {
+    "nodes": 486,
+    "edge_observations": 5796,
+    "distinct_pairs": 2718,
+    "mean_degree": 11.185185185185185,
+    "median_degree": 9.5,
+    "degree_one_count": 10,
+    "density": 0.023062237495227185,
+    "components": 8,
+    "largest_component": 426,
+    "largest_component_share": 0.8765432098765432,
+    "mean_distance_largest_component": 3.8459652029826015,
+    "diameter_largest_component": 9,
+    "mean_clustering": 0.7733000699026911,
+    "transitivity": 0.5849812863323866,
+    "top_degree": [
+      {
+        "id": "p-th",
+        "name": "Phạm Tuấn Hải",
+        "value": 48
+      },
+      {
+        "id": "p-4e0a835e9aa68696b9ec",
+        "name": "Trần Nguyên Mạnh",
+        "value": 34
+      },
+      {
+        "id": "p-83313bc445f4e75dd841",
+        "name": "Mạc Hồng Quân",
+        "value": 32
+      },
+      {
+        "id": "p-4af15369f40ff99d1448",
+        "name": "Nguyễn Hải Huy",
+        "value": 32
+      },
+      {
+        "id": "p-44f512abd03b5aaf2453",
+        "name": "Nguyễn Trọng Hoàng",
+        "value": 32
+      },
+      {
+        "id": "p-38834294008a10ce0a0c",
+        "name": "Trần Văn Kiên",
+        "value": 31
+      }
+    ],
+    "top_betweenness": [
+      {
+        "id": "p-c4b6202e078ee06ccb9a",
+        "name": "Quế Ngọc Hải",
+        "value": 0.08157196616012835
+      },
+      {
+        "id": "p-th",
+        "name": "Phạm Tuấn Hải",
+        "value": 0.07985055175861266
+      },
+      {
+        "id": "p-4af15369f40ff99d1448",
+        "name": "Nguyễn Hải Huy",
+        "value": 0.06690229185849082
+      },
+      {
+        "id": "p-83313bc445f4e75dd841",
+        "name": "Mạc Hồng Quân",
+        "value": 0.06621424034150424
+      },
+      {
+        "id": "p-44f512abd03b5aaf2453",
+        "name": "Nguyễn Trọng Hoàng",
+        "value": 0.06273529008290879
+      },
+      {
+        "id": "p-1788c34993db513f0d22",
+        "name": "Huỳnh Tuấn Linh",
+        "value": 0.060480521277597864
+      }
+    ],
+    "louvain": {
+      "weight": "matches",
+      "seed": 22,
+      "resolution": 1,
+      "count": 22,
+      "sizes": [
+        54,
+        47,
+        43,
+        39,
+        31,
+        30,
+        27,
+        24,
+        23,
+        22,
+        21,
+        20,
+        20,
+        19,
+        15,
+        14,
+        12,
+        11,
+        8,
+        2,
+        2,
+        2
+      ],
+      "modularity": 0.8205270310882877
+    },
+    "matches_with_verified_pairs": 187,
+    "unique_matches_in_full": 2300,
+    "pairs_seen_once": 1497,
+    "top_pairs": [
+      {
+        "player1": "p-35b6282e1bc1d2376d11",
+        "player2": "p-9ee270434fab25352be2",
+        "name1": "Trần Đình Khương",
+        "name2": "Trần Minh Toàn",
+        "matches": "25"
+      }
+    ],
+    "highest_weighted_degree": [
+      {
+        "id": "p-8fa94f0588c06eae5aba",
+        "name": "Đỗ Hùng Dũng",
+        "value": 159
+      },
+      {
+        "id": "p-9ee270434fab25352be2",
+        "name": "Trần Minh Toàn",
+        "value": 151
+      },
+      {
+        "id": "p-37e4a15cb21c67298de8",
+        "name": "Nguyễn Thành Chung",
+        "value": 133
+      },
+      {
+        "id": "p-th",
+        "name": "Phạm Tuấn Hải",
+        "value": 132
+      },
+      {
+        "id": "p9_vne_65116",
+        "name": "Đinh Hoàng Max",
+        "value": 119
+      },
+      {
+        "id": "p-872841916d28b740ec62",
+        "name": "Phạm Xuân Mạnh",
+        "value": 116
+      }
+    ]
+  }
+}

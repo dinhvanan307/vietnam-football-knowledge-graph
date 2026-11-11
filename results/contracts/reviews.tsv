@@ -1,0 +1,86 @@
+lot	article_id	system	outcome	player	club_id	anchor	explicit
+lo_1	2	baseline	FN	Bùi Tiến Dũng	c-cahn	7.2	0
+lo_1	11	baseline	TP	Đặng Văn Lâm	club-press-ninhbinh-2025	3.2	0
+lo_1	11	baseline	TP	Lê Ngọc Bảo	club-press-ninhbinh-2025	3.2	0
+lo_1	11	baseline	TP	Đỗ Thanh Thịnh	club-press-ninhbinh-2025	3.2	0
+lo_1	13	baseline	TP	Khevin Fraga	c-hagl	1.1	0
+lo_1	13	baseline	FP	Higor Felliny Cruz	c-hagl	12.2	1
+lo_1	13	baseline	FN	Gabriel da Conceicao	c-hagl	1.1	0
+lo_1	17	baseline	TP	Alexander Đặng	c-nd	12.1	1
+lo_1	18	baseline	FN	Bruno Matos	c-tc	6.4	0
+lo_1	2	reader	TP	Bùi Tiến Dũng	c-cahn	7.2	0
+lo_1	11	reader	TP	Đặng Văn Lâm	club-press-ninhbinh-2025	3.2	0
+lo_1	11	reader	TP	Lê Ngọc Bảo	club-press-ninhbinh-2025	3.2	0
+lo_1	11	reader	TP	Đỗ Thanh Thịnh	club-press-ninhbinh-2025	3.2	0
+lo_1	13	reader	TP	Khevin Fraga	c-hagl	1.1	0
+lo_1	13	reader	TP	Gabriel da Conceicao	c-hagl	1.1	0
+lo_1	17	reader	TP	Alexander Đặng	c-nd	8.1	1
+lo_1	18	reader	FN	Bruno Matos	c-tc	6.4	0
+lo_2	1	baseline	FP	Quế Ngọc Hải	c-slna	9.6	0
+lo_2	1	baseline	FP	Nguyễn Trọng Hoàng	c-slna	9.6	0
+lo_2	7	baseline	FP	Hồi đầu	c-binhdinh	2.1	0
+lo_2	7	baseline	FN	Hồ Tấn Tài	c-cahn	1.1	0
+lo_2	7	baseline	FN	Hồ Tấn Tài	c-binhdinh	2.1	0
+lo_2	8	baseline	FN	Rimario Gordon	c-tc	4.1	0
+lo_2	8	baseline	FN	Triệu Việt Hưng	c-tc	4.1	0
+lo_2	10	baseline	FP	Kevin Phạm Ba	c-nd	1.1	0
+lo_2	10	baseline	FN	Kevin Phạm Ba	c-nd	5.3	0
+lo_2	12	baseline	FN	Nguyễn Đình Bắc	c-cahn	3.1	1
+lo_2	12	baseline	FN	Nguyễn Đình Bắc	c-cahn	9.1	0
+lo_2	15	baseline	TP	Đình Bảo	c-th	2.1	0
+lo_2	16	baseline	FN	Nguyễn Hai Long	c-hn	3.2	0
+lo_2	7	rules_v1	FP	Việt Nam Hồ Tấn Tài	c-cahn	1.1	0
+lo_2	7	rules_v1	FN	Hồ Tấn Tài	c-cahn	1.1	0
+lo_2	7	rules_v1	FN	Hồ Tấn Tài	c-binhdinh	2.1	0
+lo_2	8	rules_v1	FN	Rimario Gordon	c-tc	4.1	0
+lo_2	8	rules_v1	FN	Triệu Việt Hưng	c-tc	4.1	0
+lo_2	10	rules_v1	FN	Kevin Phạm Ba	c-nd	5.3	0
+lo_2	12	rules_v1	FN	Nguyễn Đình Bắc	c-cahn	3.1	1
+lo_2	12	rules_v1	FN	Nguyễn Đình Bắc	c-cahn	9.1	0
+lo_2	15	rules_v1	TP	Đình Bảo	c-th	2.1	0
+lo_2	16	rules_v1	FN	Nguyễn Hai Long	c-hn	3.2	0
+lo_3	2	rules_v1	FN	Hendrio	c-nd	4.1	0
+lo_3	3	rules_v1	FP	Paul-Georges Ntep	c-hcm	2.1	0
+lo_3	3	rules_v1	FN	Brendon	c-hcm	6.5	0
+lo_3	4	rules_v1	FP	Tuấn Anh	c-nd	3.1	0
+lo_3	9	rules_v1	FP	Ai Cập Mohamed Essam	c-tc	1.1	1
+lo_3	9	rules_v1	TP	Mohamed Essam	c-tc	2.1	1
+lo_3	15	rules_v1	TP	Võ Nguyên Hoàng	c-th	1.1	0
+lo_3	15	rules_v1	FN	Rimario	c-th	3.2	0
+lo_3	18	rules_v1	FP	Lê Đức Lương	c-hcm	3.1	0
+lo_3	18	rules_v1	FN	Lê Đức Lương	club-press-ninhbinh-2025	3.1	0
+lo_3	20	rules_v1	TP	Ngọc Tân	c-th	5.3	0
+lo_3	20	rules_v1	FN	Doãn Ngọc Tân	c-hcm	5.2	0
+lo_3	20	rules_v1	FN	Doãn Ngọc Tân	c-hp	5.2	0
+lo_3	21	rules_v1	FN	Công Phượng	c9-bp	5.3	0
+lo_3	23	rules_v1	FN	Romario Alves	c9-la	2.2	0
+lo_3	23	rules_v1	FN	Tiêu Exal	c9-la	4.1	0
+lo_3	2	rules_v2	FN	Hendrio	c-nd	4.1	0
+lo_3	3	rules_v2	FP	Paul-Georges Ntep	c-hcm	2.1	0
+lo_3	3	rules_v2	FN	Brendon	c-hcm	6.5	0
+lo_3	4	rules_v2	FP	Tuấn Anh	c-nd	3.1	0
+lo_3	9	rules_v2	FP	Ai Cập Mohamed Essam	c-tc	1.1	1
+lo_3	9	rules_v2	TP	Mohamed Essam	c-tc	2.1	1
+lo_3	15	rules_v2	TP	Võ Nguyên Hoàng	c-th	1.1	0
+lo_3	15	rules_v2	FN	Rimario	c-th	3.2	0
+lo_3	18	rules_v2	FP	Lê Đức Lương	c-hcm	3.1	0
+lo_3	18	rules_v2	FN	Lê Đức Lương	club-press-ninhbinh-2025	3.1	0
+lo_3	20	rules_v2	TP	Ngọc Tân	c-th	5.3	0
+lo_3	20	rules_v2	FN	Doãn Ngọc Tân	c-hcm	5.2	0
+lo_3	20	rules_v2	FN	Doãn Ngọc Tân	c-hp	5.2	0
+lo_3	21	rules_v2	FN	Công Phượng	c9-bp	5.3	0
+lo_3	23	rules_v2	FN	Romario Alves	c9-la	2.2	0
+lo_3	23	rules_v2	FN	Tiêu Exal	c9-la	4.1	0
+lo_3	2	reader	TP	Hendrio	c-nd	4.1	0
+lo_3	3	reader	TP	Brendon	c-hcm	6.5	0
+lo_3	9	reader	TP	Mohamed Essam	c-tc	2.1	1
+lo_3	15	reader	TP	Võ Nguyên Hoàng	c-th	1.1	0
+lo_3	15	reader	FN	Rimario	c-th	3.2	0
+lo_3	18	reader	TP	Lê Đức Lương	club-press-ninhbinh-2025	3.1	0
+lo_3	20	reader	TP	Doãn Ngọc Tân	c-hcm	5.2	0
+lo_3	20	reader	TP	Doãn Ngọc Tân	c-hp	5.2	0
+lo_3	20	reader	TP	Doãn Ngọc Tân	c-th	5.3	0
+lo_3	20	reader	FP	Doãn Ngọc Tân	c-tc	8.2	0
+lo_3	21	reader	TP	Công Phượng	c9-bp	5.3	0
+lo_3	23	reader	TP	Romario Alves	c9-la	2.2	0
+lo_3	23	reader	TP	Tiêu Exal	c9-la	4.1	0

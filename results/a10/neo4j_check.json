@@ -1,0 +1,80 @@
+{
+  "before": {
+    "nodes": 0,
+    "edges": 0,
+    "types": 0,
+    "relations": {},
+    "graph_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "runs": [
+    {
+      "nodes": 3585,
+      "edges": 12781,
+      "types": 24,
+      "relations": {
+        "CHUYEN_DEN_CLB": 591,
+        "CHUYEN_DI_TU": 585,
+        "CHU_TICH_CUA": 1,
+        "CO_TEN_TRONG_DANH_SACH_CLB": 377,
+        "CO_TEN_TRONG_DOI_HINH_MUA": 483,
+        "DANG_KY_DU_BI_TRONG_TRAN": 999,
+        "DAN_DAT": 2,
+        "DA_CHINH_TRONG_TRAN": 2071,
+        "DUOC_BAO_GHI_NHAN_THUOC_CLB": 251,
+        "DUOC_CHO_MUON_DEN": 1,
+        "DUOC_TRIEU_TAP_VAO": 228,
+        "GHI_NHAN_HLV_TRUONG_MUA": 29,
+        "GIA_HAN_VOI": 2,
+        "GOP_MAT_TRONG_TRAN": 4600,
+        "KY_HOP_DONG_VOI": 37,
+        "KY_LUAT": 23,
+        "SU_DUNG_SAN_NHA": 1,
+        "TAI_TRO": 34,
+        "THAM_GIA_GIAI": 14,
+        "THANH_LY_VOI": 7,
+        "THI_DAU_CHO": 4,
+        "THUOC_GIAI_DAU": 2300,
+        "TO_CHUC_GIAI": 3,
+        "VAO_SAN_THAY_NGUOI_TRONG_TRAN": 138
+      },
+      "graph_sha256": "845cf94ccbb9c6572066ece80ccf236c0b625f203fe32f59a73c6b53a12c2c2f",
+      "created_nodes": 3585,
+      "created_edges": 12781
+    },
+    {
+      "nodes": 3585,
+      "edges": 12781,
+      "types": 24,
+      "relations": {
+        "CHUYEN_DEN_CLB": 591,
+        "CHUYEN_DI_TU": 585,
+        "CHU_TICH_CUA": 1,
+        "CO_TEN_TRONG_DANH_SACH_CLB": 377,
+        "CO_TEN_TRONG_DOI_HINH_MUA": 483,
+        "DANG_KY_DU_BI_TRONG_TRAN": 999,
+        "DAN_DAT": 2,
+        "DA_CHINH_TRONG_TRAN": 2071,
+        "DUOC_BAO_GHI_NHAN_THUOC_CLB": 251,
+        "DUOC_CHO_MUON_DEN": 1,
+        "DUOC_TRIEU_TAP_VAO": 228,
+        "GHI_NHAN_HLV_TRUONG_MUA": 29,
+        "GIA_HAN_VOI": 2,
+        "GOP_MAT_TRONG_TRAN": 4600,
+        "KY_HOP_DONG_VOI": 37,
+        "KY_LUAT": 23,
+        "SU_DUNG_SAN_NHA": 1,
+        "TAI_TRO": 34,
+        "THAM_GIA_GIAI": 14,
+        "THANH_LY_VOI": 7,
+        "THI_DAU_CHO": 4,
+        "THUOC_GIAI_DAU": 2300,
+        "TO_CHUC_GIAI": 3,
+        "VAO_SAN_THAY_NGUOI_TRONG_TRAN": 138
+      },
+      "graph_sha256": "845cf94ccbb9c6572066ece80ccf236c0b625f203fe32f59a73c6b53a12c2c2f",
+      "created_nodes": 0,
+      "created_edges": 0
+    }
+  ],
+  "full_property_comparison": true
+}

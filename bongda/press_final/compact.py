@@ -11,7 +11,7 @@ def export(s,d):
  meta=idx(jlines(s/"event_attributes.jsonl"),"fact_id"); rows=[]
  for f in table(s/"facts.csv"):
   rows.append({k:(meta.get(f["fact_id"],{}).get(k,"") if k=="club_id" else f[k]) for k in fields})
- write_csv(d/"facts.csv",rows,fields);m=dict(version="A9.1",nodes=len(table(d/"entities.csv")),edges=len(rows),types=dict(Counter(r["relation_type"] for r in rows)),sha256={x:sha((d/x).read_bytes()) for x in ["entities.csv","facts.csv"]})
+ write_csv(d/"facts.csv",rows,fields);m=dict(version=json.loads((s/"stats.json").read_text())["version"],nodes=len(table(d/"entities.csv")),edges=len(rows),types=dict(Counter(r["relation_type"] for r in rows)),sha256={x:sha((d/x).read_bytes()) for x in ["entities.csv","facts.csv"]})
  (d/"manifest.json").write_text(json.dumps(m,indent=2,ensure_ascii=False)+"\n");return m
 def read(d):
  m=json.loads((d/"manifest.json").read_text())

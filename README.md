@@ -1,6 +1,8 @@
 # Mạng cầu thủ, huấn luyện viên và CLB bóng đá Việt Nam
 
-**Bản nộp A9.1 (11/11/2026)** sử dụng báo chí thể thao trong nước: **3.566 nút, 12.749 cạnh, 22 loại quan hệ, 1.180 URL**, đã nhập Neo4j hai lần. Có **1.199 người, 2.300 trận, 67 thực thể khác**. Nguồn gồm bài biên tập và bảng dữ liệu do báo đăng. Không dùng Wikipedia làm bằng chứng trong bản nộp. Mẫu 200 cạnh xác nhận **192 đúng (96%), 8 chưa rõ**.
+**Bản hiện tại: [A10 – mạng phân lớp](docs/phan-lop-a10.md).** Toàn đồ thị: 3.585 nút, 12.781 cạnh, 24 loại. Mạng xã hội trực tiếp: 1.103 tác nhân, 2.654 cạnh. [Kết quả A10](results/a10/) · [Cypher](cypher/phan_lop_a10.cypher).
+
+**Bản nền A9.1 (11/11/2026)** sử dụng báo chí thể thao trong nước: **3.566 nút, 12.749 cạnh, 22 loại quan hệ, 1.180 URL**, đã nhập Neo4j hai lần. Có **1.199 người, 2.300 trận, 67 thực thể khác**. Nguồn gồm bài biên tập và bảng dữ liệu do báo đăng. Không dùng Wikipedia làm bằng chứng trong bản nộp. Mẫu 200 cạnh xác nhận **192 đúng (96%), 8 chưa rõ**.
 
 **[Chạy local, mở bản đồ và kiểm tra A9.1](docs/bao-chi-a91.md)** · [Kết quả kiểm tra](results/a91/) · [Truy vấn Neo4j](cypher/phan_tich_bao_chi.cypher). Trên lô thử mới, mô-đun NLP nối trận tìm đúng 13/25 trận, so với 7/25 ở luật cũ. Đây là phép đo riêng.
 

@@ -1,0 +1,18 @@
+{
+  "version": "A10",
+  "scope": "xa_hoi",
+  "frame": 2654,
+  "n": 80,
+  "confirmed": 73,
+  "uncertain": 7,
+  "confirmed_false": 0,
+  "precision_conservative": 0.9125,
+  "wilson95": [
+    0.8302320449152527,
+    0.9569679982179393
+  ],
+  "seed": 2026111122,
+  "reviewers": 1,
+  "recall": null,
+  "whole_graph_precision": null
+}

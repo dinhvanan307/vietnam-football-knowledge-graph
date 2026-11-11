@@ -1,0 +1,70 @@
+{
+  "actor_inventory": 1281,
+  "actor_only_context": 178,
+  "both_layers_nodes": 494,
+  "graph": {
+    "edges": 12781,
+    "evidence_spans": 16187,
+    "matches": 2300,
+    "nodes": 3585,
+    "non_match_nodes": 1285,
+    "raw_objects": 1491,
+    "relation_types": 24,
+    "source_urls": 1181,
+    "wiki_source_documents": 0
+  },
+  "layers": {
+    "boi_canh": {
+      "edges": 10127,
+      "families": {
+        "huấn luyện và quản lý": 3,
+        "trận, giải và sân": 6915,
+        "tài trợ": 1,
+        "đội hình trận": 3208
+      },
+      "nodes": 2976,
+      "source_support": {
+        "bai_viet": 846,
+        "bang_bao": 8279,
+        "ca_hai": 1002
+      },
+      "types": 9
+    },
+    "xa_hoi": {
+      "edges": 2654,
+      "families": {
+        "chuyển nhượng": 1176,
+        "huấn luyện và quản lý": 32,
+        "hợp đồng": 47,
+        "kỷ luật": 23,
+        "nhân sự CLB": 1115,
+        "triệu tập": 228,
+        "tài trợ": 33
+      },
+      "nodes": 1103,
+      "source_support": {
+        "bai_viet": 1101,
+        "bang_bao": 1553
+      },
+      "types": 16
+    }
+  },
+  "projection_pairs": 2718,
+  "projection_people": 486,
+  "projection_witnesses": 5796,
+  "roles": {
+    "Club": 35,
+    "Coach": 20,
+    "Company": 26,
+    "Executive": 1,
+    "Federation": 1,
+    "Fixture": 2300,
+    "League": 3,
+    "Organizer": 1,
+    "Player": 1198,
+    "SeniorMen": 1,
+    "Stadium": 1
+  },
+  "unique_urls": 1181,
+  "version": "A10"
+}

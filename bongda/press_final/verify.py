@@ -8,7 +8,7 @@ from bongda.core.ontology import ENDS
 from bongda.press.build import NEWS_DOMAINS
 from bongda.collect.danh_sach_tre_bao import TRUSTED,domain
 
-EXTRA=dict(GOP_MAT_TRONG_TRAN=("Club","Match"),THUOC_GIAI_DAU=("Match","Competition"),DA_CHINH_TRONG_TRAN=("Person","Match"),DANG_KY_DU_BI_TRONG_TRAN=("Person","Match"),VAO_SAN_THAY_NGUOI_TRONG_TRAN=("Person","Match"))
+EXTRA=dict(GHI_NHAN_HLV_TRUONG_MUA=("Person","Club"),GOP_MAT_TRONG_TRAN=("Club","Match"),THUOC_GIAI_DAU=("Match","Competition"),DA_CHINH_TRONG_TRAN=("Person","Match"),DANG_KY_DU_BI_TRONG_TRAN=("Person","Match"),VAO_SAN_THAY_NGUOI_TRONG_TRAN=("Person","Match"))
 EXTRA.update({r:("Person","Club") for r in ["CO_TEN_TRONG_DOI_HINH_MUA","CHUYEN_DI_TU","CHUYEN_DEN_CLB","CO_TEN_TRONG_DANH_SACH_CLB","DUOC_BAO_GHI_NHAN_THUOC_CLB"]})
 def verify_snapshot(root):
     m=json.loads((root/"manifest.json").read_text());require(m["schema_version"]=="A9-1" and m["record_kind"]=="real","Manifest")

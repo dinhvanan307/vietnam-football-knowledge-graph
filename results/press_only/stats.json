@@ -1,0 +1,48 @@
+{
+  "version": "A8-press",
+  "nodes": 468,
+  "edges": 858,
+  "relation_types": 13,
+  "press_articles": 147,
+  "wiki_articles": 0,
+  "press_base_nodes": 223,
+  "press_base_edges": 373,
+  "pilot_articles_examined": 39,
+  "pilot_articles_contributing": 34,
+  "pilot_net_nodes": 245,
+  "pilot_new_edges": 485,
+  "pilot_mentions": 1056,
+  "held_mentions": 571,
+  "types": {
+    "DUOC_TRIEU_TAP_VAO": 232,
+    "TAI_TRO": 34,
+    "KY_HOP_DONG_VOI": 39,
+    "KY_LUAT": 36,
+    "THAM_GIA_GIAI": 14,
+    "THI_DAU_CHO": 4,
+    "THANH_LY_VOI": 7,
+    "DAN_DAT": 2,
+    "DUOC_CHO_MUON_DEN": 1,
+    "GIA_HAN_VOI": 2,
+    "SU_DUNG_SAN_NHA": 1,
+    "CHU_TICH_CUA": 1,
+    "CO_TEN_TRONG_DOI_HINH_MUA": 485
+  },
+  "sources": {
+    "vtv.vn": 10,
+    "thanhnien.vn": 35,
+    "tuoitre.vn": 60,
+    "baoxaydung.vn": 1,
+    "phunuvietnam.vn": 1,
+    "vov.vn": 1,
+    "baodanang.vn": 1,
+    "tienphong.vn": 1,
+    "bongdaplus.vn": 35,
+    "baokhanhhoa.vn": 2
+  },
+  "targets": {
+    "nodes": 2000,
+    "edges": 5000,
+    "relation_types": 10
+  }
+}

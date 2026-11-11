@@ -1,0 +1,58 @@
+{
+  "before": {
+    "nodes": 0,
+    "edges": 0,
+    "types": 0,
+    "relations": {},
+    "graph_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "runs": [
+    {
+      "nodes": 468,
+      "edges": 858,
+      "types": 13,
+      "relations": {
+        "CHU_TICH_CUA": 1,
+        "CO_TEN_TRONG_DOI_HINH_MUA": 485,
+        "DAN_DAT": 2,
+        "DUOC_CHO_MUON_DEN": 1,
+        "DUOC_TRIEU_TAP_VAO": 232,
+        "GIA_HAN_VOI": 2,
+        "KY_HOP_DONG_VOI": 39,
+        "KY_LUAT": 36,
+        "SU_DUNG_SAN_NHA": 1,
+        "TAI_TRO": 34,
+        "THAM_GIA_GIAI": 14,
+        "THANH_LY_VOI": 7,
+        "THI_DAU_CHO": 4
+      },
+      "graph_sha256": "b2acf41341979e7fd3c8c6ff37d011698cc846a99f9fdaf31c9772d7cda632fd",
+      "created_nodes": 468,
+      "created_edges": 858
+    },
+    {
+      "nodes": 468,
+      "edges": 858,
+      "types": 13,
+      "relations": {
+        "CHU_TICH_CUA": 1,
+        "CO_TEN_TRONG_DOI_HINH_MUA": 485,
+        "DAN_DAT": 2,
+        "DUOC_CHO_MUON_DEN": 1,
+        "DUOC_TRIEU_TAP_VAO": 232,
+        "GIA_HAN_VOI": 2,
+        "KY_HOP_DONG_VOI": 39,
+        "KY_LUAT": 36,
+        "SU_DUNG_SAN_NHA": 1,
+        "TAI_TRO": 34,
+        "THAM_GIA_GIAI": 14,
+        "THANH_LY_VOI": 7,
+        "THI_DAU_CHO": 4
+      },
+      "graph_sha256": "b2acf41341979e7fd3c8c6ff37d011698cc846a99f9fdaf31c9772d7cda632fd",
+      "created_nodes": 0,
+      "created_edges": 0
+    }
+  ],
+  "full_property_comparison": true
+}

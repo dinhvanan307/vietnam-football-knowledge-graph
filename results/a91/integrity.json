@@ -1,0 +1,11 @@
+{
+  "nodes": 3566,
+  "edges": 12749,
+  "relation_types": 22,
+  "source_urls": 1180,
+  "evidence_spans": 16155,
+  "raw_objects": 1490,
+  "matches": 2300,
+  "non_match_nodes": 1266,
+  "wiki_source_documents": 0
+}

@@ -1,0 +1,97 @@
+{
+  "pairs": 2718,
+  "people": 486,
+  "top": [
+    {
+      "player1": "p-35b6282e1bc1d2376d11",
+      "player2": "p-9ee270434fab25352be2",
+      "name1": "Trần Đình Khương",
+      "name2": "Trần Minh Toàn",
+      "matches": 25,
+      "example_match": "m9_33dcf82cce98ed38aa2fa8",
+      "club_id": "c-bd"
+    },
+    {
+      "player1": "p-9ee270434fab25352be2",
+      "player2": "p_news_582777c5ac48b8a10c3d",
+      "name1": "Trần Minh Toàn",
+      "name2": "Nguyễn Trần Việt Cường",
+      "matches": 22,
+      "example_match": "m9_4dbbcb1b60433d2ce82ec1",
+      "club_id": "c-bd"
+    },
+    {
+      "player1": "p-22e3c7ec9e8e3aa7aa2e",
+      "player2": "p-9ee270434fab25352be2",
+      "name1": "Võ Hoàng Minh Khoa",
+      "name2": "Trần Minh Toàn",
+      "matches": 20,
+      "example_match": "m9_4dbbcb1b60433d2ce82ec1",
+      "club_id": "c-bd"
+    },
+    {
+      "player1": "p-37e4a15cb21c67298de8",
+      "player2": "p-8fa94f0588c06eae5aba",
+      "name1": "Nguyễn Thành Chung",
+      "name2": "Đỗ Hùng Dũng",
+      "matches": 20,
+      "example_match": "m9_1e4c825e2fd77f94a31ad1",
+      "club_id": "c-hn"
+    },
+    {
+      "player1": "p-35b6282e1bc1d2376d11",
+      "player2": "p_news_582777c5ac48b8a10c3d",
+      "name1": "Trần Đình Khương",
+      "name2": "Nguyễn Trần Việt Cường",
+      "matches": 19,
+      "example_match": "m9_33dcf82cce98ed38aa2fa8",
+      "club_id": "c-bd"
+    },
+    {
+      "player1": "p-872841916d28b740ec62",
+      "player2": "p-8fa94f0588c06eae5aba",
+      "name1": "Phạm Xuân Mạnh",
+      "name2": "Đỗ Hùng Dũng",
+      "matches": 15,
+      "example_match": "m9_1e4c825e2fd77f94a31ad1",
+      "club_id": "c-hn"
+    },
+    {
+      "player1": "p-22e3c7ec9e8e3aa7aa2e",
+      "player2": "p-35b6282e1bc1d2376d11",
+      "name1": "Võ Hoàng Minh Khoa",
+      "name2": "Trần Đình Khương",
+      "matches": 14,
+      "example_match": "m9_33dcf82cce98ed38aa2fa8",
+      "club_id": "c-bd"
+    },
+    {
+      "player1": "p-8fa94f0588c06eae5aba",
+      "player2": "p-vq",
+      "name1": "Đỗ Hùng Dũng",
+      "name2": "Nguyễn Văn Quyết",
+      "matches": 14,
+      "example_match": "m9_1e4c825e2fd77f94a31ad1",
+      "club_id": "c-hn"
+    },
+    {
+      "player1": "p-9ee270434fab25352be2",
+      "player2": "p-fb2160fbb027e5850ed4",
+      "name1": "Trần Minh Toàn",
+      "name2": "Hồ Tấn Tài",
+      "matches": 14,
+      "example_match": "m9_33dcf82cce98ed38aa2fa8",
+      "club_id": "c-bd"
+    },
+    {
+      "player1": "p-22e3c7ec9e8e3aa7aa2e",
+      "player2": "p_news_582777c5ac48b8a10c3d",
+      "name1": "Võ Hoàng Minh Khoa",
+      "name2": "Nguyễn Trần Việt Cường",
+      "matches": 13,
+      "example_match": "m9_4dbbcb1b60433d2ce82ec1",
+      "club_id": "c-bd"
+    }
+  ],
+  "excluded_groups_over_eleven": 0
+}

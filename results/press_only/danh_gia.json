@@ -1,0 +1,46 @@
+{
+  "version": "A8-press",
+  "frame": 858,
+  "seed": 20261111,
+  "sample_size": 100,
+  "unique_articles_in_sample": 54,
+  "sampling": "SRS from frozen facts without replacement, including previously reviewed press evidence; not a new-article test",
+  "fact_sha256": "128bf56296686dfd130980f07488a4d29fe88ce5b55c4b682520f9d3956ab6e4",
+  "confirmed": 91,
+  "unresolved": 9,
+  "contradicted": 0,
+  "conservative_confirmed_fraction": 0.91,
+  "wilson95_approx_no_fpc": [
+    0.8377378714728394,
+    0.9519274599974341
+  ],
+  "by_relation": {
+    "CO_TEN_TRONG_DOI_HINH_MUA": {
+      "DUNG": 51,
+      "CHUA_RO": 2
+    },
+    "DUOC_TRIEU_TAP_VAO": {
+      "DUNG": 24,
+      "CHUA_RO": 4
+    },
+    "THAM_GIA_GIAI": {
+      "DUNG": 3
+    },
+    "KY_HOP_DONG_VOI": {
+      "DUNG": 4,
+      "CHUA_RO": 2
+    },
+    "KY_LUAT": {
+      "DUNG": 3,
+      "CHUA_RO": 1
+    },
+    "TAI_TRO": {
+      "DUNG": 5
+    },
+    "THANH_LY_VOI": {
+      "DUNG": 1
+    }
+  },
+  "review": "One review against archived press text; unconfirmed counts as non-success; independent human review pending",
+  "extractor_recall": null
+}

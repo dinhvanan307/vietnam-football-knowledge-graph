@@ -1,0 +1,59 @@
+{
+  "seed": 17741463,
+  "n": 200,
+  "graph_edges": 12749,
+  "facts_sha256": "5ebf40d4ebc902bd8fea0974fce569633ddd14f236a3f8c26b7a9f034208c74c",
+  "selection": "uniform without replacement, sorted fact_id; one judgement per fact",
+  "confirmed": 192,
+  "unresolved": 8,
+  "wrong": 0,
+  "precision_conservative": 0.96,
+  "wilson95_approx": [
+    0.923067931799067,
+    0.9795943679338476
+  ],
+  "sources_in_sample": 159,
+  "by_relation": {
+    "DA_CHINH_TRONG_TRAN": {
+      "DUNG": 37
+    },
+    "GOP_MAT_TRONG_TRAN": {
+      "DUNG": 72,
+      "CHUA_RO": 3
+    },
+    "CO_TEN_TRONG_DANH_SACH_CLB": {
+      "DUNG": 3
+    },
+    "THUOC_GIAI_DAU": {
+      "DUNG": 34,
+      "CHUA_RO": 1
+    },
+    "CHUYEN_DI_TU": {
+      "DUNG": 11
+    },
+    "DANG_KY_DU_BI_TRONG_TRAN": {
+      "CHUA_RO": 3,
+      "DUNG": 13
+    },
+    "CHUYEN_DEN_CLB": {
+      "DUNG": 8
+    },
+    "CO_TEN_TRONG_DOI_HINH_MUA": {
+      "DUNG": 7
+    },
+    "VAO_SAN_THAY_NGUOI_TRONG_TRAN": {
+      "DUNG": 2
+    },
+    "DUOC_TRIEU_TAP_VAO": {
+      "CHUA_RO": 1,
+      "DUNG": 2
+    },
+    "DUOC_BAO_GHI_NHAN_THUOC_CLB": {
+      "DUNG": 1
+    },
+    "KY_LUAT": {
+      "DUNG": 2
+    }
+  },
+  "method": "Single source-grounded reading. Uncertain = non-success. A graph-edge sample is not an NLP recall test."
+}

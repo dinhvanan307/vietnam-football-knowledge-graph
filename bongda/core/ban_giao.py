@@ -13,7 +13,10 @@ def sha(b): return hashlib.sha256(b).hexdigest()
 def enc(x): return json.dumps(x, ensure_ascii=False,sort_keys=True)
 def table(p,sep=","):
     with p.open(encoding="utf-8-sig",newline="") as f: return list(csv.DictReader(f,delimiter=sep))
-def jlines(p): return [json.loads(s) for s in p.read_text(encoding="utf-8").splitlines() if s.strip()]
+def jlines(p):
+    # NDJSON uses ASCII LF; U+2028/U+2029 are legal inside a JSON string.
+    with p.open(encoding="utf-8") as records:
+        return [json.loads(s) for s in records if s.strip()]
 def idx(rows,key):
     ret={}
     for r in rows:

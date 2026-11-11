@@ -1,0 +1,58 @@
+{
+  "weak_components": 1,
+  "largest_component": 3566,
+  "vertices": 3566,
+  "directed_event_edges": 12749,
+  "mean_distinct_neighbors": 6.665171060011217,
+  "largest_component_fraction": 1.0,
+  "top_clubs": [
+    {
+      "id": "c-hagl",
+      "name": "Hoàng Anh Gia Lai",
+      "neighbors": 423,
+      "incident_events": 504
+    },
+    {
+      "id": "c-dn",
+      "name": "CLB Đà Nẵng",
+      "neighbors": 399,
+      "incident_events": 416
+    },
+    {
+      "id": "c-hp",
+      "name": "CLB Hải Phòng",
+      "neighbors": 399,
+      "incident_events": 453
+    },
+    {
+      "id": "c-slna",
+      "name": "Sông Lam Nghệ An",
+      "neighbors": 397,
+      "incident_events": 440
+    },
+    {
+      "id": "c-bd",
+      "name": "CLB Bình Dương",
+      "neighbors": 396,
+      "incident_events": 449
+    },
+    {
+      "id": "c-hcm",
+      "name": "CLB TP.HCM",
+      "neighbors": 332,
+      "incident_events": 371
+    },
+    {
+      "id": "c-hn",
+      "name": "CLB Hà Nội",
+      "neighbors": 321,
+      "incident_events": 426
+    },
+    {
+      "id": "c-th",
+      "name": "CLB Thanh Hóa",
+      "neighbors": 313,
+      "incident_events": 336
+    }
+  ]
+}

@@ -1,6 +1,14 @@
 # Mạng cầu thủ, huấn luyện viên và CLB bóng đá Việt Nam
 
-Đề tài 22 xây dựng đồ thị có hướng từ tin thể thao trong nước và Wikipedia tiếng Việt. Mỗi cạnh ghi nhận một quan hệ bóng đá và liên kết về bằng chứng trong nguồn. Dự án dùng Python 3.13 để thu thập, trích xuất, đánh giá và dùng Neo4j để lưu đồ thị.
+**Bản nộp A9.1 (11/11/2026)** sử dụng báo chí thể thao trong nước: **3.566 nút, 12.749 cạnh, 22 loại quan hệ, 1.180 URL**, đã nhập Neo4j hai lần. Có **1.199 người, 2.300 trận, 67 thực thể khác**. Nguồn gồm bài biên tập và bảng dữ liệu do báo đăng. Không dùng Wikipedia làm bằng chứng trong bản nộp. Mẫu 200 cạnh xác nhận **192 đúng (96%), 8 chưa rõ**.
+
+**[Chạy local, mở bản đồ và kiểm tra A9.1](docs/bao-chi-a91.md)** · [Kết quả kiểm tra](results/a91/) · [Truy vấn Neo4j](cypher/phan_tich_bao_chi.cypher). Trên lô thử mới, mô-đun NLP nối trận tìm đúng 13/25 trận, so với 7/25 ở luật cũ. Đây là phép đo riêng.
+
+## Phiên bản lịch sử — không dùng làm số liệu bản nộp
+
+[A8: bản chỉ báo quy mô nhỏ](docs/bao-chi.md). Nội dung sau mô tả bản A7 kết hợp hai loại nguồn và được giữ để tái lập kết quả cũ.
+
+Mỗi cạnh ghi nhận một quan hệ bóng đá và liên kết về bằng chứng trong nguồn. Dự án dùng Python 3.13 để thu thập, trích xuất, đánh giá và dùng Neo4j để lưu đồ thị.
 
 **Bản A7 đạt kiểm tra** trên bốn loại quan hệ trích từ báo thể thao trong nước. Đồ thị có **2.068 nút, 18.261 cạnh và 18 loại quan hệ**. So với A6.3, A7 có thêm 144 cạnh từ 73 bài báo. Trong toàn đồ thị, báo chí là nguồn chính của 371 cạnh và Wikipedia là nguồn chính của 17.890 cạnh.
 

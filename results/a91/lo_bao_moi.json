@@ -1,0 +1,18 @@
+{
+  "articles": 36,
+  "scored": 33,
+  "multiple_primary_excluded": 3,
+  "negatives": 10,
+  "positive_articles": 23,
+  "TP": 18,
+  "FP": 0,
+  "FN": 28,
+  "precision": 1.0,
+  "recall": 0.391304347826087,
+  "F1": 0.5625,
+  "correctly_linked_matches": 9,
+  "predicted_matches": 9,
+  "gold_sha256": "d3f0d7b111a18a2de4e49ef01f08330c99d1d5980d02dc4c2e7bf8cf53af4310",
+  "selection_pool": 153,
+  "known_overlap_by_url_or_raw_hash": 0
+}
